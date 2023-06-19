@@ -1,0 +1,29 @@
+_id: req_1dfef78221c14444bc1cb7c7bc5013c5
+type: Request
+parentId: fld_8ce95d123c934fd4bafb7e57e7cb5922
+modified: 1685612704418
+created: 1683340221580
+url: http://b-caption-jobcaption.zpidc.com/jobcaption/captionService/get
+name: jobcaption
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: type
+    value: jobForImAggregatedCaption
+    disabled: false
+    id: pair_80fe9456a1e443ebad794feaa1a74cf5
+  - name: id
+    value: CCL1242707130J40404289303
+    disabled: false
+    id: pair_7ddd3f1686fc4e6a8c56b912a579c062
+headers: []
+authentication: {}
+metaSortKey: -1683340221580
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_80eca780f6694ba6b5b49741251d468c
+type: Request
+parentId: fld_7c82ecafc9594ddd82ad85d1aec49006
+modified: 1673502006034
+created: 1673489142886
+url: http://b-bapi-bapi.zpidc.com/officialaccountresume/officialAccountResume/listLastPackageResume
+name: listLastPackageResume-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	    "rootOrgId": 130138075,
+        "staffId": 1090600058,
+    	"states":["PENDING"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: C_eeb75c563f9f4f33
+  - name: x-zp-at
+    value: C_eeb75c563f9f4f33
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1673338349214.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

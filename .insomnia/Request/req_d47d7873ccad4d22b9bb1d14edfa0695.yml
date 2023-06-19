@@ -1,0 +1,28 @@
+_id: req_d47d7873ccad4d22b9bb1d14edfa0695
+type: Request
+parentId: fld_a1853bf867c647b0949a8ee0a03dd393
+modified: 1680242372139
+created: 1675130764332
+url: http://b-jobexposure-jobexposure.zpidc.com/jobexposure/exposure/listJobExposure
+name: listJobExposure-pre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    
+
+    {"beginTime":1677637276281,"page":{"pageNo":3,"pageSize":20},"rootOrgId":87596217,"sideBusinessSubtype":"SEEK_JOB_EXPOSURE","sideBusinessType":"BAPP","staffId":1141941252,"type":"ACTIVELY_FIND_JOB"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675130764332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

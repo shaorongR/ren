@@ -1,0 +1,28 @@
+_id: req_47b97cde51f144e2a63c989cf884b905
+type: Request
+parentId: fld_b6969d60fdf1447cb56d657e077659f1
+modified: 1680146916974
+created: 1680146555482
+url: http://p-im-im.zpidc.com/staffPhrase/checkContainSensitiveWord
+name: checkContainSensitiveWord
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"content":"123@163.com && 18911124743 && 滚"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678847407920.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

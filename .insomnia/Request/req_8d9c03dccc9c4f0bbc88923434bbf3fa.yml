@@ -1,0 +1,42 @@
+_id: req_8d9c03dccc9c4f0bbc88923434bbf3fa
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1684920524150
+created: 1684829344989
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateBusinessScene
+name: 搜索聊灰度场景
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"TALENT_SEARCH_GARY",
+
+    "context": "{\"sceneReferType\":\"TALENT_SEARCH\",\"sessionExists\":false,\"setContext\":true,\"allowChangeContextJob\":true,\"sourceAccountConfig\":{\"visible\":true,\"mute\":false,\"initiator\":true,\"speaking\":true,\"read\":true,\"visibilityLevel\":\"REQUIRE_FOR_NOTHING\",\"visibleWhenSessionExists\":true},\"targetAccountConfig\":{\"visible\":true,\"mute\":false,\"initiator\":false,\"speaking\":false,\"read\":false,\"visibilityLevel\":\"REQUIRE_FOR_NOTHING\",\"visibleWhenSessionExists\":true}}",
+
+    "state": "INVALID",
+
+    "description": "搜索聊-未表态卡灰度",
+
+    "env":"prod"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1678072533292.5198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

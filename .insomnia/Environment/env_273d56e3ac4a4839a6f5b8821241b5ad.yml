@@ -1,0 +1,28 @@
+_id: env_273d56e3ac4a4839a6f5b8821241b5ad
+type: Environment
+parentId: wrk_ac6f9f875a6d4ed2be911f40b7c57134
+modified: 1670235643844
+created: 1670235643844
+name: Base Environment
+data:
+  ACCESS_TOKEN: ""
+  PORT: 80
+  PREFIX: ""
+  businessSystem: 5
+  clientType: "0"
+  memberId: 12007036
+  orgId: 12007036
+  ownerId: 345
+dataPropertyOrder:
+  "&":
+    - PREFIX
+    - PORT
+    - ACCESS_TOKEN
+    - memberId
+    - ownerId
+    - orgId
+    - businessSystem
+    - clientType
+color: null
+isPrivate: false
+metaSortKey: 1577086634975

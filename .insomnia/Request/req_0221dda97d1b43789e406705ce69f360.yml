@@ -1,0 +1,25 @@
+_id: req_0221dda97d1b43789e406705ce69f360
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1685440922610
+created: 1685440872047
+url: http://b-operation-operation.zpidc.com/jobGroup/listJob
+name: listJob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":12927851,"jobGroupId":2454397}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665605802924.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

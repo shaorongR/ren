@@ -1,0 +1,43 @@
+_id: req_8989004cb7c046fcb3be09843041cc35
+type: Request
+parentId: fld_95e7ae2e1f3246c5955f7edb2e1d888b
+modified: 1679479747701
+created: 1675216730831
+url: http://p-resumerecommend-resumerecommend.zpidc.com/resumerecommend/recommend/listJobExposure
+name: listJobExposure-pre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"beginTime":1676884398590,
+    	"page":{"pageNo":1,"pageSize":20},
+    	"rootOrgId":84027024,
+    	"sideBusinessSubtype":"SEEK_JOB_EXPOSURE",
+    	"sideBusinessType":"BAPP",
+    	"staffId":1093695130,
+    	"type":"COLLECTED"
+    }
+
+    {
+    	"rootOrgId":4392,
+    	"staffId":1152444458,
+    	"type":"ACTIVELY_FIND_JOB",
+    	"sideBusinessType":"OPERATION",
+    	"sideBusinessSubtype":"急求职"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673787400196.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

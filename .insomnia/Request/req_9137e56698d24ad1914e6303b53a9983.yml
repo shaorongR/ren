@@ -1,0 +1,28 @@
+_id: req_9137e56698d24ad1914e6303b53a9983
+type: Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1685516188885
+created: 1680765446733
+url: http://b-operation-operation.zpidc.com/admin/updateAccountIdForRootOrgId
+name: updateAccountIdForRootOrgId
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgIds":[133899533]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680765446733
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

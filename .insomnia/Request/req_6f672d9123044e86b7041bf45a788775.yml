@@ -1,0 +1,72 @@
+_id: req_6f672d9123044e86b7041bf45a788775
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1684118636482
+created: 1676617408507
+url: http://p-im-im.zpidc.com/batchOperation/batchOperation
+name: 创建效果运营群聊
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"scene": "B_LAUNCH_HEADHUNTER_GROUP",
+    	"accountId": 13410281,
+    	"accountType": "OPERATOR",
+    	"operations": [{
+    		"operationType": "CREATE_GROUP_NOTIFY_TIPS_CARD"
+    	}, {
+    		"operationMeta": "{\"jobNumber\":\"CCL1289782150J40384546106\",\"staff\":{\"staffId\":1093233029,\"rootOrgId\":128978215}}",
+    		"operationType": "CREATE_GROUP_JOB_CARD"
+    	}, {
+    		"operationMeta": "{\"jobNumber\":\"CCL1289782150J40384546106\"}",
+    		"operationType": "CREATE_GROUP_JOB_TIPS_CARD"
+    	}, {
+    		"operationMeta": "{\"senderId\":13283881,\"senderType\":\"SALES\",\"content\":\"我是销售\"}",
+    		"operationType": "CREATE_GROUP_SALES_GREETING"
+    	}],
+    	"partitionId": 13410281,
+    	"context": {
+    		"rootOrgId": 128978215,
+    		"jobNumber": "CCL1289782150J40384546106",
+    		"groupContextRequest": {
+                "name": "群聊测试1",
+    			"businessKey": 1093233029,
+    			"greeting": "I am greeting!"
+    		},
+            "operationJobId": 123
+    	},
+    	"sideBusinessSubtype": "GROUP",
+    	"sideBusinessType": "Z",
+    	"sideSourceType": "OP_LAUNCH_GROUP",
+    	"groupMembers": [{
+    		"accountId": 13283881,
+    		"accountType": "SALES",
+    		"partitionId": 13283881,
+    		"roleType": "MEMBER"
+    	}, {
+    		"accountId": 1093233029,
+    		"accountType": "STAFF",
+    		"partitionId": 128978215,
+    		"roleType": "GROUP_LEADER"
+    	}, {
+    		"accountId": 13410281,
+    		"accountType": "OPERATOR",
+    		"partitionId": 13410281,
+    		"roleType": "MEMBER"
+    	}]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1679940151351.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

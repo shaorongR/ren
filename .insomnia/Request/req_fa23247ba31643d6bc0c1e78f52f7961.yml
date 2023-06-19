@@ -1,0 +1,48 @@
+_id: req_fa23247ba31643d6bc0c1e78f52f7961
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580207852
+created: 1682331767200
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 56-C点击不合适
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "processorClass": "com.zhaopin.zservice.bilink.third.consumer.im.UserInappropriateEventProcessor",
+        "eventData":
+        {
+            "companyId": 135526055,
+            "doubleVisionTime": 1682324363079,
+            "jobNumber": "CCL1224312550J40000235302",
+            "operateTime": 1682324363079,
+            "originType": 1,
+            "reason":
+            [
+                8
+            ],
+            "referType": 4,
+            "resumeNumber": "JI028837717R90500000000",
+            "rootCompanyId": 122431255,
+            "scene": "ASK_FOR_CONTACT",
+            "sessionCreateTime": 1682324363079,
+            "sessionId": 108719,
+            "staffId": 60103836,
+            "userId": 60106181
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328045021.198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

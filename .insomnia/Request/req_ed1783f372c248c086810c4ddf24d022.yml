@@ -1,0 +1,94 @@
+_id: req_ed1783f372c248c086810c4ddf24d022
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580229420
+created: 1682328045019
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: C投递
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"processorClass": "com.zhaopin.zservice.bilink.third.consumer.ApplyEventProcessor",
+    	"eventData": {
+    		"ackPageCode": 50,
+    		"applyCreateTime": 1682326127594,
+    		"applyResumeType": "ONLINE_AND_ATTACHMENT",
+    		"attachmentId": "1681817594687406765",
+    		"attachmentTitle": "简历简历简历简历见棱见角了j哈哈哈哈哈哈哈哈哈哈哈哈呵呵就是.docx",
+    		"attachmentType": "WORD",
+    		"businessPlatformLabel": 1,
+    		"businessPlatformSub": 0,
+    		"businessTagId": "",
+    		"campus": false,
+    		"commercialState": 0,
+    		"companyId": 122431255,
+    		"coverLetterId": 0,
+    		"coverLetterNumber": "",
+    		"coverLetterVersion": 0,
+    		"createSession": {
+    			"grayState": true,
+    			"greeting": "您好，我对贵司【高级园艺师】很感兴趣，请您看下我的简历，如果合适可以随时联系我，谢谢。",
+    			"needSession": true,
+    			"referType": 15
+    		},
+    		"createTime": "2023-04-24 16:48:47",
+    		"custom": 1,
+    		"cycleType": 0,
+    		"deliveryBusinessType": 0,
+    		"deliveryChannelType": 0,
+    		"deliveryType": 0,
+    		"deliveryWay": 0,
+    		"errorType": 128,
+    		"exposureSolrMethod": "default",
+    		"exposureSolrTaskId": "default",
+    		"exposureType": 2001,
+    		"hitExperimentType": 0,
+    		"ignoreBlackType": 0,
+    		"jobCityId": 850,
+    		"jobCode": 601,
+    		"jobNumber": "CCL1224312550J40000235302",
+    		"jobResumeId": 544539256812,
+    		"jobTitle": "高级园艺师",
+    		"jobVersion": 1,
+    		"languageId": 1,
+    		"operatePageCode": "5021",
+    		"pageCode": 50,
+    		"partitionId": 75,
+    		"platform": 5,
+    		"pt": 1,
+    		"resumeExact": "NORMAL",
+    		"resumeId": 479563051,
+    		"resumeName": "在线简历",
+    		"resumeNumber": "JH507546756R90500000000",
+    		"resumeSource": 1,
+    		"resumeStatus": 1,
+    		"resumeType": 0,
+    		"resumeVersion": 1,
+    		"rootCompanyId": 122431255,
+    		"sessionData": {
+    			"originType": 0,
+    			"referType": 0
+    		},
+    		"stSourceCode": "501901",
+    		"staffId": 60103836,
+    		"taskId": "c9b5d42741644b28ba3769510d195df9",
+    		"userMasterId": 60106181,
+    		"version": "8.10.2"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328045019
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

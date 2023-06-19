@@ -1,0 +1,49 @@
+_id: req_f635f80424b04f62b4108c479bdf1aa3
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1681351539846
+created: 1681268464270
+url: http://b-bapi-bapi.zpidc.com/boperation/operationScope/importOrgIndustryAndJobTypeConfig
+name: importOrgIndustryAndJobTypeConfig-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"accountId":13374141,
+    	"url":"https://storage-public.zhaopin.cn/operation/import/job/1681348878632709031/a.xlsx"
+    }
+parameters: []
+headers:
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: be51a993475a4558b780840eca0a4ad9
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670371994160.2617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

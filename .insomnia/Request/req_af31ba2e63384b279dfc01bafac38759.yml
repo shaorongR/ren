@@ -1,0 +1,25 @@
+_id: req_af31ba2e63384b279dfc01bafac38759
+type: Request
+parentId: fld_dce10154eefd4de98bc0aa0c61c167f6
+modified: 1677122904185
+created: 1676605189557
+url: http://b-operation-operation.zpidc.com/workOrder/countWorkOrder
+name: countWorkOrder
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":12544711,"operateContractState":"NORMAL"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671728686554.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

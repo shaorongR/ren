@@ -1,0 +1,31 @@
+_id: req_cb69bdabcfd342cf8398e53b5fadabc0
+type: Request
+parentId: fld_1c18bfaf56994828a2d130a59af0df62
+modified: 1677746361341
+created: 1677746335871
+url: http://p-im-im.zpidc.com/test/staffInfoError
+name: staffInfoError
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"staffId":1049216268,
+    	"greetingId":6362561,
+    	"rootCompanyId":84320164,
+    	"greetingType":"STAFF_GREETING"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677746335871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_57c3f47e55e941349dfe7313e47a3439
+type: Request
+parentId: fld_3ab61d891d96461eb659ad2daa657176
+modified: 1686814334988
+created: 1683793354576
+url: http://p-im-im.zpidc.com/group/getGroupByBusinessKey
+name: 卓聘-获取群id
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"businessKey": "CCL1289782150J40402978406",
+    	"referType": "HIGHPIN_GROUP",
+    	"sideBusinessType": "Z",
+    	"sideBusinessSubtype": "test",
+    	"accountType":"STAFF",
+    	"accountId":1161010590,
+    	"partitionId":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683793354576
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

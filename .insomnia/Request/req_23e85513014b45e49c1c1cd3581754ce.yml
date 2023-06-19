@@ -1,0 +1,48 @@
+_id: req_23e85513014b45e49c1c1cd3581754ce
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1682412565956
+created: 1682412556310
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 批投抢人才操作-索要联系方式跟随TIPS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"BATCH_APPLY_TALENT",
+
+    "operationType": "SEND_ASK_FOR_CONTACT_TIPS",
+
+    "context": "{\"messageType\":175,\"tags\":[],\"detectMessage\":true,\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+
+    "condition":"#root.operationMeta != null",
+
+    "priority": 3,
+
+    "state": "VALID",
+
+    "description": "索要联系方式跟随TIPS",
+
+    "env":"prod"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1682412446043.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

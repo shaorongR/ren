@@ -1,0 +1,36 @@
+_id: req_d0196ebe17df4c42b0f0014cb8a7dbe1
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1682412416377
+created: 1680263753267
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateBusinessScene
+name: 靠谱投
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "scene":"RELIABLE_DELIVERY",
+        "context": "{\"sceneReferType\":\"COLLEAGUE\",\"sessionExists\":false,\"setContext\":true,\"allowChangeContextJob\":true,\"sourceAccountConfig\":{\"visible\":true,\"mute\":false,\"initiator\":true,\"speaking\":true,\"read\":true,\"visibilityLevel\":\"REQUIRE_FOR_NOTHING\",\"visibleWhenSessionExists\":true},\"targetAccountConfig\":{\"visible\":true,\"mute\":false,\"initiator\":false,\"speaking\":false,\"read\":false,\"visibilityLevel\":\"REQUIRE_FOR_NOTHING\",\"visibleWhenSessionExists\":true}}",
+        "state": "VALID",
+        "description": "靠谱投场景",
+        "env":"prod"
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1678279215199.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

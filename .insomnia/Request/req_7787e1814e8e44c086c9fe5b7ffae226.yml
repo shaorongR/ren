@@ -1,0 +1,30 @@
+_id: req_7787e1814e8e44c086c9fe5b7ffae226
+type: Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1686566128549
+created: 1686566079618
+url: http://b-operation-operation.zpidc.com/admin/sendPulsarEvent
+name: 修改运营状态-未转化
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "messageBody": "{\"eventTime\":\"2023-06-12T18:34:55.188Z\",\"rootOrgId\":84027024,\"jobNumber\":\"CC840270240J40488289914\",\"staffId\":1054013784}",
+        "beanClassName": "com.zhaopin.microservice.operation.consumer.ExperienceExpireEventProcessor",
+        "eventClassName": "com.zhaopin.microservice.operation.bo.event.delayed.ExperienceExpireEvent"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686557202953.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

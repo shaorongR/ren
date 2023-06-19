@@ -1,0 +1,42 @@
+_id: req_8d5f6d167f5948b08330bb3d9af3a98d
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1684307374409
+created: 1682330801251
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 30-收藏简历
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+    				"jobNumber": "CCL1224312550J40000235301",
+    				"language": 1,
+    				"resumeNumber": "JM796263292R90250000000",
+    				"rootOrgId": 122431255,
+    				"source": "UNKNOWN",
+    				"staffId": 60103836,
+    				"stashTime": 1682329010955,
+    				"state": "CHATTING",
+    				"userId": 60106180,
+    				"userName": "邓先生",
+    				"version": 1
+    		}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328076528.4062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,54 @@
+_id: req_91fa5b7a13704cc5805e19a92c7975fd
+type: Request
+parentId: fld_7c82ecafc9594ddd82ad85d1aec49006
+modified: 1675418064794
+created: 1673502386274
+url: http://b-bapi-bapi.zpidc.com/officialaccountresume/officialAccountResume/listRecommendedPackageResume
+name: listRecommendedPackageResume-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	    "rootOrgId": 146038956,
+        "staffId": 1157442173,
+    	"officialAccountId":100100,
+    	"page":{
+    		"pageNo":1,
+    		"pageSize":10
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: C_4663ff7738c917b2
+  - name: x-zp-at
+    value: C_4663ff7738c917b2
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1673338710053.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

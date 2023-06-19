@@ -1,0 +1,30 @@
+_id: req_aa7103c51bfe4a5bb45b7de5e0a878fe
+type: Request
+parentId: fld_d6555273bd984db792da33340db915c8
+modified: 1684737941314
+created: 1679390621788
+url: http://p-im-im.zpidc.com/message/listMessage
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "from": "1122510103",
+    	"to": "1169881254",
+      "limit": 20
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1679390621788
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

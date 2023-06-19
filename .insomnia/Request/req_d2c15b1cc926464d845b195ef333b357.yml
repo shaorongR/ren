@@ -1,0 +1,45 @@
+_id: req_d2c15b1cc926464d845b195ef333b357
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1682598508010
+created: 1682321565023
+url: http://p-im-im.zpidc.com/talentExecute/execute
+name: 执行抢人才场景-测试
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"businessType":"b","memberId":136531454,"metaType":"TALENT","orderContext":{"assetPay":false,"chatRightsPay":false,"orderNo":"25d0e1fa301c4320b6b0a501ada95f8a","paymentNo":"P20230427153145556787973","productId":"85a0a2afea0b49e487ea144f0d06a26c"},"ownerId":1118572425,"processorType":"TALENT","productMeta":"{\"batchApplyTalent\":true,\"channel\":\"UNKNOWN\",\"executed\":true,\"extra\":\"null\",\"free\":true,\"jobNumber\":\"CCL1365314540J40358416802\",\"resumeLanguage\":1,\"resumeNumber\":\"kxwU)3C)zntJdW3WuJU7tAoox(9MpEfe\",\"resumeVersion\":1,\"rootCompanyId\":136531454,\"staffId\":1118572425,\"userId\":1066677097}","quantity":1,"referType":"ORDER","sideBusinessType":"BAPP"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: d1dc40b352af436bbcc5fb16188c392b
+  - name: x-zp-at
+    value: be51a993475a4558b780840eca0a4ad9
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1679940151320.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

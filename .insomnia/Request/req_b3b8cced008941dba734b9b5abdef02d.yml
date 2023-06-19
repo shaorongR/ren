@@ -1,0 +1,48 @@
+_id: req_b3b8cced008941dba734b9b5abdef02d
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1684244424145
+created: 1684206572976
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 网约车-搜索聊灰度
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene": "TALENT_SEARCH_GARY",
+
+    "operationType": "ONLINE_TAXI_FEE_REMINDER",
+
+    "context": "{\"messageType\":228,\"tags\":[],\"detectMessage\":true,\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+
+    "condition": "#root.operationMeta != null",
+
+    "priority": 14,
+
+    "state": "VALID",
+
+    "description": "给C发送收费信息引导卡片",
+
+    "env": "prod"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1678085445022.4531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

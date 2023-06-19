@@ -1,0 +1,39 @@
+_id: req_2ff3e36a9a5d481d8831a9e2dca69d56
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1684822727021
+created: 1684219123831
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 效果运营场景操作3
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "scene":"B_LAUNCH_GROUP",
+        "operationType": "CREATE_GROUP_NOTIFY_TIPS_CARD",
+        "context": "{\"messageType\":193,\"tags\":[\"CREATE\"],\"detectMessage\":true,\"senderType\":\"STAFF\",\"visible\":true,\"targetVisible\":true,\"executeWhenSessionExist\":false,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+        "condition":"#root.operationMeta != null",
+        "priority": 1,
+        "state": "VALID",
+        "description": "创建群聊通知系统语",
+        "env":"pre"
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1678072930689.2642
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_2bb299245bea447d980fb7e420d91a1c
+type: Request
+parentId: fld_dce10154eefd4de98bc0aa0c61c167f6
+modified: 1677161211502
+created: 1676605174064
+url: http://b-operation-operation.zpidc.com/workOrder/listWorkOrder
+name: listWorkOrder
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":13386441,"lastContractMoney":{"minAmount":8000,"maxAmount":18000},"page":{"pageNo":1,"pageSize":20},"operateContractState":"NORMAL"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671728686532.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

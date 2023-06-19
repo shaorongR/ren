@@ -1,0 +1,10 @@
+_id: fld_3ab61d891d96461eb659ad2daa657176
+type: RequestGroup
+parentId: fld_8ce95d123c934fd4bafb7e57e7cb5922
+modified: 1683793185976
+created: 1683793185976
+name: 获取群信息
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1683793185976

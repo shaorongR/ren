@@ -1,0 +1,50 @@
+_id: req_a516e4882e4d49ce960dea088d825038
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580144585
+created: 1682417788639
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 37-B确认单向
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"processorClass": "com.zhaopin.zservice.bilink.third.consumer.im.TalentEventAddProcessor",
+    	"eventData": {
+    		"assetAmount": 1,
+    		"assetType": 10,
+    		"channel": -1,
+    		"companyId": 122431255,
+    		"createTime": 1682324363078,
+    		"free": false,
+    		"jobNumber": "CCL1224312550J40000235302",
+    		"realSessionId": "bb02681728d020016246d94fcd06a8fe",
+    		"realUserId": 0,
+    		"resumeLanguage": 1,
+    		"resumeNumber": "JS601061800R90500000000",
+    		"resumeVersion": 1,
+    		"rootCompanyId": 122431255,
+    		"sessionId": 108719,
+    		"sideBusinessSubtype": "TALENT_CHAT_RECOMMEDN",
+    		"sideBusinessType": "BPC",
+    		"sourceType": "STAFF_UNIDIRECTION_INITIATOR",
+    		"staffId": 60103836,
+    		"terminalType": 0,
+    		"userId": 60106181
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328065134.38
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

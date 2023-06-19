@@ -1,0 +1,54 @@
+_id: req_e7859889248644429b2beb45fe3186da
+type: Request
+parentId: fld_d568ca71ad9b4c1fa167e4166d8124ef
+modified: 1686044765765
+created: 1684996626596
+url: http://b-bapi-bapi.zpidc.com/boperation/knowledge/listJobKgSuggestion
+name: 职位知识联想列表-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":1,
+    	"jobType":6000700100000,
+    	"word":"车",
+    	"page":{
+    	"pageNo":1,
+    	"pageSize":10
+    }
+    }
+parameters: []
+headers:
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: C_322f97d98bfeb260
+  - name: x-zp-at
+    value: C_322f97d98bfeb260
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684919010153.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

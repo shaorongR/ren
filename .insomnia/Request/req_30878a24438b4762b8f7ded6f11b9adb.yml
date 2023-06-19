@@ -1,0 +1,26 @@
+_id: req_30878a24438b4762b8f7ded6f11b9adb
+type: Request
+parentId: fld_fb4a93d39561491c871b04fb2f706d4b
+modified: 1677227153639
+created: 1677225916768
+url: http://b-rpo-rpo.zpidc.com/recommendResumeSearch/listRecommendResume
+name: listRecommendResume
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {"orderType":"MODIFIED_TIME_DESC","page":{"pageNo":1,"pageSize":10},"rootOrgId":124266666,"jobNumber":"CCL1242666660J40357175810","staffId":1108572967,"states":["INAPPROPRIATE"]}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677225916768
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

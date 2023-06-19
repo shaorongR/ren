@@ -1,0 +1,33 @@
+_id: req_1af619c4f2bc4197945cf13ac33bbacc
+type: Request
+parentId: fld_3ab61d891d96461eb659ad2daa657176
+modified: 1686814288514
+created: 1683793374349
+url: http://p-im-im.zpidc.com/group/getGroup
+name: 获取群信息
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":242136,
+    	"withMembers":true,
+    	"onlyValidMembers":true,
+    	"accountType":"STAFF",
+    	"accountId":1161010590,
+    	"partitionId":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683793374349
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

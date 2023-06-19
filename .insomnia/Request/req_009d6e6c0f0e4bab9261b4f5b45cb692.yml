@@ -1,0 +1,31 @@
+_id: req_009d6e6c0f0e4bab9261b4f5b45cb692
+type: Request
+parentId: fld_ab6bf90fe7534496a613807e335a89ec
+modified: 1677746342629
+created: 1677745211902
+url: http://p-im-im.zpidc.com/staff/updateStaff
+name: updateStaff
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"staffId":1049216268,
+    	"greetingId":6362561,
+    	"rootCompanyId":84320164,
+    	"greetingType":"STAFF_GREETING"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677745211902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

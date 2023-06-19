@@ -1,0 +1,45 @@
+_id: req_296697603e314d8e8ba2be5859e75654
+type: Request
+parentId: fld_38fa13f40dbb4173b8460a9f49d63aed
+modified: 1675928827878
+created: 1675928030088
+url: http://ihrsearch.zhaopin.com/search/listResume
+name: listResume
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"orgNames":["智联招聘","北京网聘咨询有限公司"],"minWorkYears":0,"educations":[5,4,3,10,1],"sort":{"type":"COMPLEX","version":17},"rootOrgId":12001997,"filteringRead":false,"maxWorkYears":0,"filteringChatted":true,"expectedCityIds":[530],"filteringDownloaded":false,"filteringOtherChatted":false,"page":{"pageNo":1,"pageSize":20},"conditions":[{"exactMatch":false,"values":["销售"],"key":"KEYWORD"}],"staffId":1089570023}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: 0f495525519f442aa4db2065c618190f
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1675928030088
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

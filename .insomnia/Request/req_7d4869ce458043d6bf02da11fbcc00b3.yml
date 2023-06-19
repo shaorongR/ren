@@ -1,0 +1,47 @@
+_id: req_7d4869ce458043d6bf02da11fbcc00b3
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580053754
+created: 1682328333105
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 4-B点击可以聊
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "candidateUserId": 1150754675,
+            "clientIp": "10.2.12.245",
+            "createTime": "2023-04-24T09:22:48.232Z",
+            "encryptedResumeNumber": "CdTKd06CagGNtNMQODA0DEdI70dnpW00",
+            "eventId": "657f9e6c602141fb90947d21c4f21575",
+            "eventType": 237,
+            "jobNumber": "CCL1224312550J40000235301",
+            "jobTitle": "农艺师",
+            "realSessionId": "7f2bacd852bf3303a0764df0530e90be",
+            "resumeId": 479563051,
+            "resumeNumber": "JH507546756R90500000000",
+            "rootOrgId": 122431255,
+            "sourceType": "APPLY",
+            "staffId": 60103836,
+            "userId": 60106180,
+            "userName": "张同学"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328333105
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

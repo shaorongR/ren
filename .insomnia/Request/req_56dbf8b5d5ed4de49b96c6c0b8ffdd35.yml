@@ -1,0 +1,32 @@
+_id: req_56dbf8b5d5ed4de49b96c6c0b8ffdd35
+type: Request
+parentId: fld_f48491cfd85a475d871dc5cc29be62cd
+modified: 1679390388591
+created: 1678072527014
+url: http://z-im-im.zpidc.com/message/listMessageByAccount
+name: listMessageByAccount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":1106194486,
+    	"accountType":"STAFF",
+    	"targetType":"STAFF",
+    	"targetId":1161010590,
+    	"endTime":1679390382000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678072527014
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

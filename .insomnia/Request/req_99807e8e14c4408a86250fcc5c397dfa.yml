@@ -1,0 +1,48 @@
+_id: req_99807e8e14c4408a86250fcc5c397dfa
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1682412627645
+created: 1682412464687
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 批投抢人才操作-发抢人才招呼语
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"BATCH_APPLY_TALENT",
+
+    "operationType": "SEND_GREETING_FOR_TALENT",
+
+    "context": "{\"messageType\":131,\"tags\":[],\"detectMessage\":true,\"visible\":true,\"targetVisible\":false,\"option\":{\"initiative\":false,\"countInRead\":true,\"outerPush\":true,\"innerPush\":true}}",
+
+    "condition":"#root.operationMeta != null",
+
+    "priority": 1,
+
+    "state": "VALID",
+
+    "description": "发抢人才招呼语",
+
+    "env":"prod"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1682412455365.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

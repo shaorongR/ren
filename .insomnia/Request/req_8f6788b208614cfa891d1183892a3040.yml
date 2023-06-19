@@ -1,0 +1,25 @@
+_id: req_8f6788b208614cfa891d1183892a3040
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1686053844997
+created: 1686021857377
+url: http://b-operation-operation.zpidc.com/staffServiceCenter/sendServiceConfirm
+name: 发送客户确认卡
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{	"accountId":13029131,	"jobNumber":"CCL1300491210J40425587111"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670339141454.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

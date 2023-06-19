@@ -1,0 +1,50 @@
+_id: req_f912a84416b645cba575ad826d935942
+type: Request
+parentId: fld_a1853bf867c647b0949a8ee0a03dd393
+modified: 1675234869314
+created: 1675227906873
+url: http://b-bapi-bapi.zpidc.com/jobexposure/exposure/listJobExposure
+name: listJobExposure-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type":"ACTIVELY_FIND_JOB",
+    	"sideBusinessType":"OPERATION",
+    	"sideBusinessSubtype":"急求职"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_0139869b369d49d8
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1675130764432
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

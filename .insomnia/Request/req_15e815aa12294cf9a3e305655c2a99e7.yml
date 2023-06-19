@@ -1,0 +1,41 @@
+_id: req_15e815aa12294cf9a3e305655c2a99e7
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580154046
+created: 1682417275857
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 38-B直播发offer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "processorClass": "com.zhaopin.zservice.bilink.third.consumer.CreateCandidateEventProcessor",
+        "eventData":
+        {
+            "encryptedResumeNumber": "PPZfFn8XkxQiqDR8VfHTH8hU5Z7yVfi)",
+            "greeting": "",
+            "jobNumber": "CCL1224312550J40000235302",
+            "resumeNumber": "JI666749820R90500000000",
+            "rootOrgId": 122431255,
+    			  "eventTime": 1682324363078,
+            "sessionId": "",
+            "sourceType": "B_LIVE_OFFER",
+            "staffId": 60103836,
+            "userId": 60106181
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328064712.379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_743c22e5ba0344a1bb6211e0aabb9263
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1681819772439
+created: 1681475550147
+url: "{{ PREFIX }}/jobGroup/manualAllocateJob"
+name: manualAllocateJob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":13181261,"sideBusinessSubtype":"ZY_JOB_MANUAL_ALLOCATE","sideBusinessType":"OPERATION","url":"https://storage-public.zhaopin.cn/operation/import/job/1681786513186011544/%E6%89%8B%E5%8A%A8%E5%88%86%E9%85%8D%E4%BC%81%E4%B8%9A.281492.xlsx"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_2fd49ea32b1f62cb
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1669966705144
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

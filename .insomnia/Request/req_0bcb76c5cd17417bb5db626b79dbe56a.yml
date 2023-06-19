@@ -1,0 +1,31 @@
+_id: req_0bcb76c5cd17417bb5db626b79dbe56a
+type: Request
+parentId: fld_ee4163837e2d4e1396a53400f6f23690
+modified: 1684917992213
+created: 1684917120243
+url: http://b-caption-jobcaption.zpidc.com/jobcaption/captionService/list
+name: caption
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type":"jobForImAggregatedCaption",
+        "ids":[
+            "CCL1461459700J40427928203"
+            ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684917120243
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

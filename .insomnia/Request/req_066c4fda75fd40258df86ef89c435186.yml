@@ -1,0 +1,21 @@
+_id: req_066c4fda75fd40258df86ef89c435186
+type: Request
+parentId: fld_d568ca71ad9b4c1fa167e4166d8124ef
+modified: 1685444496636
+created: 1685444297621
+url: http://d-fuhsi-backend.zpidc.com/zhiying/getTreesByIndustryCode?industryCode=6001300170000
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685444297621
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,16 @@
+_id: env_38e3b6d25f154791ac25ff3d4ec87d1d
+type: Environment
+parentId: env_273d56e3ac4a4839a6f5b8821241b5ad
+modified: 1670473204935
+created: 1670235643856
+name: QA
+data:
+  COLOR: red
+  at: QmVhcmVyIGV5SmhiR2NpT2lKSVV6VXhNaUo5LmV5SnpkV0lpT2lJeE1qazNORGN5TVNJc0ltVjRjQ0k2TVRZMk9UQXdNRFE1TlgwLlVzY0hzVDhTVXpOLTBVa2dwbGdjeUIyQUtHTXhxNHhJcXM4VEVlOVdZaWExR0t3RnZGS1ljWkxzb2xlZk9RQ25aV3BhNEtVczA4S1h6S3FOWkRJbnF3
+dataPropertyOrder:
+  "&":
+    - COLOR
+    - at
+color: null
+isPrivate: false
+metaSortKey: 1577092540975

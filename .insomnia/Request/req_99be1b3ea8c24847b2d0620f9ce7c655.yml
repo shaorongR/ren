@@ -1,0 +1,52 @@
+_id: req_99be1b3ea8c24847b2d0620f9ce7c655
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1671766891554
+created: 1670325684890
+url: "{{ PREFIX }}/jobGroup/getOperationAccount"
+name: getOperationAccount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {
+    			"rootOrgId": 142357841,
+    	"staffId": 1138934070,
+    	"accountId":13029131
+    }
+
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_75b4c1df63d76c7b
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1669966705119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

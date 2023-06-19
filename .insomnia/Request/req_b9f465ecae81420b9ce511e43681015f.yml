@@ -1,0 +1,48 @@
+_id: req_b9f465ecae81420b9ce511e43681015f
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580110590
+created: 1682330864877
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 32-B转发给站内同事
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "candidateUserId": 687392531,
+            "clientIp": "2409:894d:7208:2810:3d06:9288:e33f:a94d",
+            "createTime": 1682328654508,
+            "currentCompanyName": "江苏华建建设股份有限公司",
+            "currentJobTitle": "预算员，预算主管",
+            "eventType": 254,
+            "jobTitle": "工程造价主管",
+            "note": "",
+            "receiverId": 298701801,
+            "receiverRootOrgId": 122431255,
+            "resumeId": 329922983,
+            "schoolName": "武汉电力职业技术学院",
+            "senderId": 60103836,
+            "senderRootOrgId": 122431255,
+            "userName": "杨先生",
+            "workYears": 14,
+            "zhaopinToken": "jtdjaycogpu7f7hb"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328069776.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

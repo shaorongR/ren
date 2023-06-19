@@ -1,0 +1,29 @@
+_id: req_76b0516cf717437b9e770293755251b5
+type: Request
+parentId: fld_b6969d60fdf1447cb56d657e077659f1
+modified: 1678935933750
+created: 1678935906636
+url: http://p-im-im.zpidc.com/staffPhrase/getStaffIdForBackSource
+name: getStaffIdForBackSource
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":128978215,
+    	"sceneRelationId":"CCL1289782150J40398638406"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678847407764
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

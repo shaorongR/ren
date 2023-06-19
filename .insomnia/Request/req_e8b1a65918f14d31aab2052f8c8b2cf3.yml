@@ -1,0 +1,34 @@
+_id: req_e8b1a65918f14d31aab2052f8c8b2cf3
+type: Request
+parentId: fld_95e7ae2e1f3246c5955f7edb2e1d888b
+modified: 1680076932103
+created: 1679479794317
+url: http://p-resumerecommend-resumerecommend.zpidc.com/resumerecommend/recommend/countJobExposure
+name: countJobExposure-pre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"beginTime":1676884398590,
+    	"rootOrgId":84027024,
+    	"sideBusinessSubtype":"SEEK_JOB_EXPOSURE",
+    	"sideBusinessType":"BAPP",
+    	"staffId":1093695130,
+    	"type":"COLLECTED"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673563506173.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

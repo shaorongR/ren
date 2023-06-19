@@ -1,0 +1,48 @@
+_id: req_adbb00f1d0674cf3bba450ddbeccb3c3
+type: Request
+parentId: fld_b6969d60fdf1447cb56d657e077659f1
+modified: 1680157465630
+created: 1680155641407
+url: http://b-bapi-bapi.zpidc.com/im/staffPhrase/checkContainSensitiveWord
+name: checkContainSensitiveWord-pre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"content":"你好"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 06922bcb2c9741d2a0e00e06285d5209
+  - name: x-zp-at
+    value: 85881bc755ba4fd1b9bdcf9304aa25b4
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1678847407917.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

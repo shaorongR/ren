@@ -1,0 +1,49 @@
+_id: req_9427b2dd215c4da4abcccc1fec2c18df
+type: Request
+parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
+modified: 1675837804256
+created: 1675837644594
+url: http://b-bapi-bapi.zpidc.com/resumeapi/resumeV2/getSesameUrl
+name: getSesameUrl-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"resumeNumber":"49UwgW6FmnW6mgov(UM86pr)HUUr1LGw",
+    	"jobNumber":"CCL1379400510J40354270808"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_b6c43208cc7ed7f9
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1675735033669
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

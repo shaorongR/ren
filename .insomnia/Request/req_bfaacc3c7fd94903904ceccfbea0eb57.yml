@@ -1,0 +1,29 @@
+_id: req_bfaacc3c7fd94903904ceccfbea0eb57
+type: Request
+parentId: fld_e09360a7a43b460e8ce5d45f7a7bb017
+modified: 1682494955395
+created: 1682492085138
+url: http://z-bilink-bilink.zpidc.com/test/removeLinkLog
+name: 删除日志表数据
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "userId":60106181,
+        "jobNumber":"CCL1224312550J40000235302"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682492085138
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

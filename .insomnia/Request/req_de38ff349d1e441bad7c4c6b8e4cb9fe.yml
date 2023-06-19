@@ -1,0 +1,30 @@
+_id: req_de38ff349d1e441bad7c4c6b8e4cb9fe
+type: Request
+parentId: fld_b6969d60fdf1447cb56d657e077659f1
+modified: 1678935973371
+created: 1678935903829
+url: http://p-im-im.zpidc.com/staffPhrase/getGreetingForBackSource
+name: getGreetingForBackSource
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":128978215,
+    	"staffId":1161010590,
+    	"sceneRelationId":"CCL1289782150J40398638406"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678847407714
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_9158cb1278644f8f9ef6a0e5e473d9a0
+type: Request
+parentId: fld_d568ca71ad9b4c1fa167e4166d8124ef
+modified: 1684920883852
+created: 1684919640124
+url: http://b-operation-operation.zpidc.com/knowledge/listJobKgSuggestion
+name: 职位知识联想列表
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":1,
+    	"jobType":6000700100000,
+    	"word":"车",
+    	"page":{
+    	"pageNo":1,
+    	"pageSize":10
+    }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684919640124
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

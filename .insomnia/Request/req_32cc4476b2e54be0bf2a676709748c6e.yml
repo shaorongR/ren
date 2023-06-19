@@ -1,0 +1,51 @@
+_id: req_32cc4476b2e54be0bf2a676709748c6e
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580193565
+created: 1682331009729
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 41-B收到C的虚拟电话
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "bindId": "36d827aec47d4e7ea423a2e0f0297b65",
+            "callInTime": "2023-04-24T09:38:43Z",
+            "callRecordId": 97134109,
+            "callType": 20,
+            "calleeNumber": "481679A8C-515-64-923",
+            "callerNumber": "4A554CE99-2F-64-8B6",
+            "createTime": "2023-04-24T09:38:39.857Z",
+            "duration": 26,
+            "endTime": "2023-04-24T09:39:34Z",
+            "id": 174402,
+            "jobNumber": "CCL1224312550J40000235301",
+            "modifiedTime": "2023-04-24T09:38:39.857Z",
+            "rootOrgId": 122431255,
+            "scene": "BLUE_COLLAR",
+            "staffId": 60103836,
+            "state": "CONNECTED",
+            "subState": 60,
+            "supplierType": 3,
+            "userId": 60106180,
+            "virtualNumber": "+8615501059072"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328045581.668
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

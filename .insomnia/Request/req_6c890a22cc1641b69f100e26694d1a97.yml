@@ -1,0 +1,29 @@
+_id: req_6c890a22cc1641b69f100e26694d1a97
+type: Request
+parentId: fld_1c18bfaf56994828a2d130a59af0df62
+modified: 1678106709588
+created: 1677725691366
+url: http://p-im-im.zpidc.com/test/updateStaffInfoGreetion
+name: updateStaffInfoGreetion
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: rootOrgId
+    value: "84320164"
+    disabled: true
+    id: pair_1b80f5fd99794f37ab19bf5f1eb5691e
+  - name: staffId
+    value: "1049216268"
+    disabled: true
+    id: pair_639cd77124c548dba37190c257ba35c0
+headers: []
+authentication: {}
+metaSortKey: -1677725691366
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

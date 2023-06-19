@@ -1,0 +1,32 @@
+_id: req_603e563469a84f0e8ae116a6cc446382
+type: Request
+parentId: fld_d568ca71ad9b4c1fa167e4166d8124ef
+modified: 1684998342229
+created: 1684922099111
+url: http://d-hinata-backend.zpidc.com/zhiYing/selectIndustryWord?token=a8289475ea9b6bjfkgid210e3453c426
+name: 职位
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "industryCode": "11000200120000",
+      "page": 1, 
+      "size": 40,                        
+      "word": "SM",                     
+      "name":"zhiying_word_vague_query"   
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684920413063
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

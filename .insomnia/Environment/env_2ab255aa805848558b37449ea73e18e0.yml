@@ -1,0 +1,14 @@
+_id: env_2ab255aa805848558b37449ea73e18e0
+type: Environment
+parentId: env_273d56e3ac4a4839a6f5b8821241b5ad
+modified: 1673489190994
+created: 1670324352664
+name: bapi
+data:
+  PREFIX: http://b-bapi-bapi.zpidc.com/boperation
+dataPropertyOrder:
+  "&":
+    - PREFIX
+color: null
+isPrivate: false
+metaSortKey: 1670324352664

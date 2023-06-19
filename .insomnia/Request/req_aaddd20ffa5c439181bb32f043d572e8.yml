@@ -1,0 +1,33 @@
+_id: req_aaddd20ffa5c439181bb32f043d572e8
+type: Request
+parentId: fld_d568ca71ad9b4c1fa167e4166d8124ef
+modified: 1684921164665
+created: 1684920890884
+url: http://b-operation-operation.zpidc.com/knowledge/listOrgSuggestion
+name: 公司联想列表
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":1,
+    	"orgName":"三快",
+    	"page":{
+    	"pageNo":1,
+    	"pageSize":10
+    }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684918380183.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

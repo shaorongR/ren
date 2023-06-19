@@ -1,0 +1,32 @@
+_id: req_8e70c2ce2c3f4f2bb105397005398890
+type: Request
+parentId: fld_39133c7354de40529f77e8a4b4f15317
+modified: 1686711838980
+created: 1686711832277
+url: "{{PREFIX}}/recommendResume/listResume"
+name: 推荐简历列表
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":13374141,
+    	"sideBusinessType":"Z",
+    	"sideBusinessSubtype":"z",
+    	"updateAccountId":13374141,
+    	"imagePhotoFileId":1671764943683219716
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672144567084.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

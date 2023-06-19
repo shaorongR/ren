@@ -1,0 +1,53 @@
+_id: req_5f0c673a616c4cf78ff445c668637178
+type: Request
+parentId: fld_95e7ae2e1f3246c5955f7edb2e1d888b
+modified: 1675233186971
+created: 1675227748754
+url: http://b-bapi-bapi.zpidc.com/jobexposure/exposure/saveActivelyFindJob
+name: saveActivelyFindJob-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId":1021589790,
+      "jobNumber": "CC000043920J40370175711",
+      "resumeNumber": "JI215897900R90500000000",
+    	"sideBusinessType":"OPERATION",
+    	"sideBusinessSubtype":"急求职",
+    	"sourceContext":"{\"id\":2}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_0139869b369d49d8
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1674235188254
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

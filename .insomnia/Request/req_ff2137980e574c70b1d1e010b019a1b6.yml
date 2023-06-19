@@ -1,0 +1,25 @@
+_id: req_ff2137980e574c70b1d1e010b019a1b6
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1682412205600
+created: 1677586601993
+url: http://p-im-im.zpidc.com/sessionV3/getOrCreateSalesSession
+name: 创建BS会话
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":1150138176,"targetId":13397421,"accountType":"STAFF","sideBusinessSubtype":"sdfsf","sideBusinessType":"BPC6","targetType":"SALES","rootOrgId":128978215}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1679940151301.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

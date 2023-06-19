@@ -1,0 +1,35 @@
+_id: req_fcc580f2f5304052b9e5c5c7859e7d44
+type: Request
+parentId: fld_a1853bf867c647b0949a8ee0a03dd393
+modified: 1675154039412
+created: 1675154036609
+url: http://localhost:8080/jobexposure/exposure/saveActivelyFindJob
+name: saveActivelyFindJob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":128242486,
+    	"staffId":60124734,
+    	"userId":60124812,
+      "jobNumber": "CCL1282424860J40001263801",
+      "resumeNumber": "JS601248122R90500000000",
+    	"sideBusinessType":"C",
+    	"sideBusinessSubtype":"急求职",
+    	"sourceContext":"{\"id\":1}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674906870309.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

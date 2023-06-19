@@ -1,0 +1,35 @@
+_id: req_30cc263f57d64071b656e2cadd5b3504
+type: Request
+parentId: fld_a1853bf867c647b0949a8ee0a03dd393
+modified: 1680067761235
+created: 1675132630399
+url: http://b-jobexposure-jobexposure.zpidc.com/jobexposure/exposure/saveActivelyFindJob
+name: saveActivelyFindJob-pre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":128978215,
+    	"staffId":1161010590,
+    	"userId":1165116619,
+      "jobNumber": "CCL1289782150J40397204406",
+      "resumeNumber": "JI862887436R90500000000",
+    	"sideBusinessType":"OPERATION",
+    	"sideBusinessSubtype":"急求职",
+    	"sourceContext":"{\"id\":1}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675130764382
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

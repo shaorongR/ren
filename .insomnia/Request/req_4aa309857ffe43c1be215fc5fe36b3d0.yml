@@ -1,0 +1,32 @@
+_id: req_4aa309857ffe43c1be215fc5fe36b3d0
+type: Request
+parentId: fld_0c532a904b5e438e8688aeff5062fe13
+modified: 1685441463279
+created: 1685441309364
+url: http://b-jobsearch-operatesearch.zpidc.com/operate/list
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":12927851,
+    	"page": {
+    		"pageNo":1,
+    		"pageSize":100
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685441309364
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

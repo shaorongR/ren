@@ -1,0 +1,14 @@
+_id: env_a1b55efa47d743128023bed9de435ba0
+type: Environment
+parentId: env_273d56e3ac4a4839a6f5b8821241b5ad
+modified: 1670473168035
+created: 1670324227161
+name: operation
+data:
+  PREFIX: http://b-operation-operation.zpidc.com:8080
+dataPropertyOrder:
+  "&":
+    - PREFIX
+color: null
+isPrivate: false
+metaSortKey: 1670324227161

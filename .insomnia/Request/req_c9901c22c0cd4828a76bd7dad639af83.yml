@@ -1,0 +1,31 @@
+_id: req_c9901c22c0cd4828a76bd7dad639af83
+type: Request
+parentId: fld_745d3c9c07224751a74ebfe1cae6c978
+modified: 1679395409620
+created: 1679379152239
+url: http://p-im-im.zpidc.com/jobResumeV2/getUserSessionContextDetail
+name: getUserSessionContextDetail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":1065446163,
+    	"partitionId":1065446163,
+    	"accountType":"USER",
+    	"sessionId":"7ee7e49a5bc1f3c118a53dec2546c6d2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1679379152239
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

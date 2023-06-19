@@ -1,0 +1,30 @@
+_id: req_c9e80a1e50914ee6b3e50dfa0f2337cd
+type: Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1686565738176
+created: 1686563361246
+url: http://b-operation-operation.zpidc.com/admin/sendPulsarEvent
+name: 修改运营状态-不活跃
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "messageBody": "{\"id\":2646336,\"accountId\":13410281}",
+        "beanClassName": "com.zhaopin.microservice.operation.consumer.JobGroupAndJobAutoStartStopEventProcessor",
+        "eventClassName": "com.zhaopin.microservice.operation.bo.event.JobGroupAndJobAutoStartStopEvent"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686563361246
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_dcb2279b82f847a885ac835ab850186a
+type: Request
+parentId: fld_b9b4522844ba4e50abec2b0aeff15693
+modified: 1686552872013
+created: 1686551044661
+url: http://p-im-im.zpidc.com/messageV3/listBusinessData
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":"1105701935","accountType":"STAFF","ids":["36a88a93d6b0432493091bbc0cd0d017"],"sessionId":"20b85cf9a85f0922820ca68aaf916f5f"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686551044661
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

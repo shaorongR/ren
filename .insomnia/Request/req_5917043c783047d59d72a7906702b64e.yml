@@ -1,0 +1,25 @@
+_id: req_5917043c783047d59d72a7906702b64e
+type: Request
+parentId: fld_d568ca71ad9b4c1fa167e4166d8124ef
+modified: 1684998336334
+created: 1684921186002
+url: http://d-kgplatform-backend.zpidc.com/etlSearch/companySuggestion?token=a8289475ea9b6bjfkgid210e3453c426
+name: 公司
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"size":10,"companyName":"三快","name":"company_suggestion_for_zhiying","from":0}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684921186002
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

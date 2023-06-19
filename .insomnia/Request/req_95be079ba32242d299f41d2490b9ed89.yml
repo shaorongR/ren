@@ -1,0 +1,28 @@
+_id: req_95be079ba32242d299f41d2490b9ed89
+type: Request
+parentId: fld_b74378b0fe8148f3a3b2c4f281fcdd27
+modified: 1671766641240
+created: 1671766512868
+url: "{{ PREFIX }}/user/getRecommenderInfo"
+name: getRecommenderInfo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"recommenderId":13029131
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671766512868
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

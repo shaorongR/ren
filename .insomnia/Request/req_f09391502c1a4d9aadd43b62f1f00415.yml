@@ -1,0 +1,48 @@
+_id: req_f09391502c1a4d9aadd43b62f1f00415
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1682412546011
+created: 1682412539275
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 批投抢人才操作-发抢人才送索要电话卡片
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"BATCH_APPLY_TALENT",
+
+    "operationType": "SEND_ASK_FOR_CONTACT_CARD",
+
+    "context": "{\"messageType\":147,\"tags\":[],\"detectMessage\":true,\"visible\":true,\"targetVisible\":false,\"option\":{\"initiative\":true,\"countInRead\":true,\"outerPush\":true,\"innerPush\":true}}",
+
+    "condition":"#root.operationMeta != null",
+
+    "priority": 2,
+
+    "state": "VALID",
+
+    "description": "发抢人才送索要电话卡片",
+
+    "env":"prod"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1682412452258
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

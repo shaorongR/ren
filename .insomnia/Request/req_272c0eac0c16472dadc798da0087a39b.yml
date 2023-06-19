@@ -1,0 +1,35 @@
+_id: req_272c0eac0c16472dadc798da0087a39b
+type: Request
+parentId: fld_5114d2b62a72478088c48c5a4f5581e5
+modified: 1682412057061
+created: 1682410924064
+url: http://p-im-im.zpidc.com/cardV2/batchSendCard
+name: 关闭群聊tips-1004601
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId": 1108014581,
+    	"accountType": "STAFF",
+    	"contexts": [{
+    		"cardBusinessType": "GROUP_CLOSED_TIP",
+    		"context": "{\"content\":\"猎头服务已结束，该群聊关闭\"}"
+    	}],
+    	"partitionId": 130021689,
+    	"sessionId": "9d4a6fe8811b8eee0c7107f86252a672"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678590918810.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,47 @@
+_id: req_c9709334aecf474caafd077092802e09
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1686739355019
+created: 1670327235159
+url: http://b-operation-operation.zpidc.com/jobGroup/getSaleInfo
+name: getSaleInfo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    
+    {"rootOrgId":26310611,"scene":"BPC_SERVICE_CENTER_ENTRANCE","staffId":200828553}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_2fd49ea32b1f62cb
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1669966705169
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

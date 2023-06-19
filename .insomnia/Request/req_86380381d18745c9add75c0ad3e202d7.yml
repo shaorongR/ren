@@ -1,0 +1,25 @@
+_id: req_86380381d18745c9add75c0ad3e202d7
+type: Request
+parentId: fld_4f4e7f4e83d742e29b1847e8e1592b6d
+modified: 1686570793173
+created: 1685511673186
+url: http://b-operation-operation.zpidc.com/crm/applyJob
+name: 销售申领职位
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"jobNumbers":["CCL1228910450J40482118314"],"saleErpId":13283881,"sideBusinessSubtype":"APPLY_JOB","sideBusinessType":"CRM"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685511673186
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

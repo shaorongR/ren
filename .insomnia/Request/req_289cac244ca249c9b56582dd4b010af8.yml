@@ -1,0 +1,72 @@
+_id: req_289cac244ca249c9b56582dd4b010af8
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1682305107411
+created: 1682303429759
+url: http://p-im-im.zpidc.com/batchOperation/batchOperation
+name: 创建效果运营群聊
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"scene": "OP_LAUNCH_EFFECT_OPERATION_GROUP_AND_SEND_RESUME",
+    	"accountId": 13283881,
+    	"accountType": "OPERATOR",
+    	"operations": [{
+    		"operationType": "CREATE_GROUP_NOTIFY_TIPS_CARD"
+    	}, {
+    		"operationMeta": "{\"content\":\"Hi，我是您的专属行业专家xxx，今日起将由我为您服务，如果在简历推荐上有问题，可以随时在群里和我沟通~\",\"senderId\":13283881,\"senderType\":\"OPERATOR\",\"inAppPushTitle\":\"wanda-OP发起效果运营群-群发消息场景\",\"outAppPushTitle\":\"wanda-OP发起效果运营群-群发消息场景\"}",
+    		"operationType": "CREATE_GROUP_OPERATOR_GREETING"
+    	}, {
+    		"operationMeta": "{\"content\":\"Hi，我是您的专属行业专家xxx，今日起将由我为您服务，如果在简历推荐上有问题，可以随时在群里和我沟通~\",\"senderId\":13283881,\"senderType\":\"OPERATOR\",\"inAppPushTitle\":\"wanda-OP发起效果运营群-群发消息场景\",\"outAppPushTitle\":\"wanda-OP发起效果运营群-群发消息场景\"}",
+    		"operationType": "OPERATION_TEXT_V3"
+    	}, {
+    		"operationMeta": "{\"items\":[{\"jobNumber\":\"CCL1340040670J40384313008\",\"keywords\":[],\"language\":1,\"recordId\":4076399803,\"resumeNumber\":\"JH205614302R90500000000\",\"rootOrgId\":134004067,\"sideSourceId\":\"4076399803\",\"sideSourceType\":\"INTELLIGENT_OPERATION_MANAGEMENT\",\"title\":\"Ta一天内被1家同行企业下载了简历\",\"version\":1}],\"operatorId\":13367941,\"packageId\":577923103,\"resumeCount\":1,\"rootSourceId\":\"577923103\",\"rootSourceType\":\"INTELLIGENT_OPERATION_INITIATOR\",\"sideSourceId\":\"577923103\",\"sideSourceType\":\"INTELLIGENT_OPERATION_MANAGEMENT\",\"title\":\"Web前端工程师\",\"execute\":true}",
+    		"operationType": "OPERATION_RESUME_CARD_V2"
+    	}, {
+    		"operationMeta": "{\"content\":\"Hi，自先生，我的同事「行业专家-吴斌」为您的「Web前端工程师」职位新推荐了1位活跃人才，快来聊吧。如有简历问题，请点击卡片下方的【联系ta】按钮，「吴斌」会在24小时内为您解决推荐问题，谢谢。\"}",
+    		"operationType": "OPERATION_TEXT_V3"
+    	}],
+    	"partitionId": 13283881,
+    	"context": {
+    		"rootOrgId": 128978215,
+    		"groupContextRequest": {
+    			"name": "wanda-OP发起效果运营群-群发消息场景",
+    			"businessKey": "1161010590"
+    		}
+    	},
+    	"sideBusinessSubtype": "GROUP",
+    	"sideBusinessType": "Z",
+    	"sideSourceType": "OP_LAUNCH_GROUP",
+    	"groupMembers": [{
+    		"accountId": 1161010590,
+    		"accountType": "STAFF",
+    		"partitionId": 128978215,
+    		"roleType": "GROUP_LEADER"
+    	}, {
+    		"accountId": 13283881,
+    		"accountType": "OPERATOR",
+    		"partitionId": 13283881,
+    		"roleType": "MEMBER"
+    	}, {
+    		"accountId": 13283881,
+    		"accountType": "SALES",
+    		"partitionId": 13283881,
+    		"roleType": "MEMBER"
+    	}]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1679940151364
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_cdfb6ff7faf449e8909ed59b34709491
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1686561560098
+created: 1686217150531
+url: http://b-operation-operation.zpidc.com/staffServiceCenter/continueRecommend
+name: 点击继续推荐
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"jobNumber":"CC840270240J40488239714","rootOrgId":84027024,"staffId":1054013784}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670309939118.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

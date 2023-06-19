@@ -1,0 +1,37 @@
+_id: req_7c058df51b714d1dbed9ca3bdf64aa1b
+type: Request
+parentId: fld_41dd53f0bc2243dca45686add35b5b99
+modified: 1675132431097
+created: 1670235646907
+url: http://localhost:8080/staffEvaluation/getEvaluationInfo
+name: getEvaluationInfo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":49449538,
+    	"staffId": 60099093,
+    	"scene":"ACCOUNT",
+    	"operateSceneData":{
+    		"accountId":2
+    	},
+    	"saleSceneData":{
+    		"salesErpId":1
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3c61e4a5b3534ea08dde597239ebd988
+authentication: {}
+metaSortKey: -1670280736432.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_fa71595128db48048d0c7998098c9e35
+type: Request
+parentId: fld_5114d2b62a72478088c48c5a4f5581e5
+modified: 1682412098066
+created: 1679984773620
+url: http://p-im-im.zpidc.com/cardV2/batchSendCard
+name: 卓聘结束服务评价卡-225
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "accountId": 1161010590,
+        "accountType": "STAFF",
+        "contexts": [
+            {
+                "cardBusinessType": "HEADHUNTER_EVALUATE",
+                "context": "{\"content\":\"卓聘平台订单结束服务评价卡片\",\"accountAppraiseId\":1,\"headhunter\":{\"accountId\":1,\"accountType\":\"STAFF\"}}"
+            }
+        ],
+        "partitionId": 128978215,
+        "sessionId": "cec50a5262d2fdccf5225ac08ea7bc24"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678509982960.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

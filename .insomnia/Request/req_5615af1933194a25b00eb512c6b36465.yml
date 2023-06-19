@@ -1,0 +1,52 @@
+_id: req_5615af1933194a25b00eb512c6b36465
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1682592844353
+created: 1681805279555
+url: http://p-im-im.zpidc.com/context/createAndUpdateUserContext
+name: 创建批投会话
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"channel": 0,
+    	"createOnly": false,
+    	"jobNumber": "CCL1289782150J40397204406",
+    	"language": 1,
+    	"message": {
+    		"applyTalk": {
+    			"attachmentTitle": "",
+    			"prologue": "您好，我对贵司【园艺师-测试职位-勿投】很感兴趣，请您看下我的简历，如果合适可以随时联系我，谢谢。",
+    			"resumeType": "ONLINE"
+    		}
+    	},
+    	"prologue": "您好，我对贵司【园艺师-测试职位-勿投】很感兴趣，请您看下我的简历，如果合适可以随时联系我，谢谢。",
+    	"referType": 26,
+    	"resumeNumber": "JI712484282R90500000000",
+    	"sideBusinessSubtype": "C_CREATE_SESSION",
+    	"sideBusinessType": "C",
+    	"sourceType": "USER_APPLY_FOR_STAFF_LIVE_BROADCAST",
+    	"staffId": 1161010590,
+    	"terminalType": 0,
+    	"userId": 1071248428,
+    	"version": 1
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: cb4a503e-0d14-ca62-4348-8fcd82dbd81b
+authentication: {}
+metaSortKey: -1681805279555
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

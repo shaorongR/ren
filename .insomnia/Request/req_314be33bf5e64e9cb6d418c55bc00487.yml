@@ -1,0 +1,48 @@
+_id: req_314be33bf5e64e9cb6d418c55bc00487
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580095077
+created: 1682330953019
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 26-28-B填写面试结果
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "beginTime": 1682330594000,
+            "callDuration": 0,
+            "clientIp": "2409:8954:e938:3217:f7d7:7c1:837a:4c58",
+            "connectType": "B_CANCEL",
+            "createTime": 1682330595665,
+            "endTime": 1682330594000,
+            "eventId": "b73160df761a4f4d82afdf32ed0d02c4",
+            "eventType": 227,
+            "interviewDetailId": 36358201,
+            "interviewId": 701922350301,
+            "interviewWay": "AUDIO",
+            "orgId": 318110624,
+            "resumeId": 492058987,
+            "rootOrgId": 122431255,
+            "staffId": 60103836,
+            "staffName": "张维嘉",
+            "userId": 60106180
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328103536.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

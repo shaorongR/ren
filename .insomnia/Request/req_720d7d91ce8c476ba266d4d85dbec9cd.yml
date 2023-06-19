@@ -1,0 +1,27 @@
+_id: req_720d7d91ce8c476ba266d4d85dbec9cd
+type: Request
+parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
+modified: 1675827869006
+created: 1675735033619
+url: http://p-resumeextend-resumeextend.zpidc.com/resumeextend/resumeV2/getResumeDetail
+name: getResumeDetail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"showUserName":false,"condition":{"expectedCityIds":[],"keywordSplitType":"NOT","keyword":""},"t":"","sceneValue":"","k":"","resumeNumber":"49UwgW6FmnW6mgov(UM86pr)HUUr1LGw","rootOrgId":137940051,"jobNumber":"CCL1379400510J40354270808","staffId":1148886362,"resumeLanguage":1}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-ZP-at
+    value: 10b68ef7536944089c642f38ad065c8e
+authentication: {}
+metaSortKey: -1675735033619
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

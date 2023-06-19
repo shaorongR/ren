@@ -1,0 +1,51 @@
+_id: req_294eba13fc8545cf9e36d4f8c9cf1f20
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580057894
+created: 1682328961807
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 5-B点击不合适
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "candidateUserId": 1148624267,
+            "clientIp": "1.180.1.82",
+            "createTime": "2023-04-24T09:30:07.548Z",
+            "encryptedResumeNumber": "DEvjsqwlFk(AJSqs5iqkV3SSbS2ChguO",
+            "eventId": "a517cd8c173c4972948bbf10d0bb1be8",
+            "eventType": 238,
+            "inappropriateList":
+            [],
+            "inappropriateType": "USER",
+            "jobNumber": "CCL1224312550J40000235301",
+            "jobTitle": "商务司机",
+            "resumeId": 478032617,
+            "resumeNumber": "JH486242678R90500000000",
+            "rootOrgId": 122431255,
+            "sideBusinessSubtype": "RESUME_DETAIL_MARK_INAPPROPRIATE",
+            "sideBusinessType": "BPC6",
+            "sourceType": "APPLY",
+            "staffId": 60103836,
+            "userId": 60106180,
+            "userName": "李飞龙"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328189062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,56 @@
+_id: req_62f170ced2da483586113699dfc490d7
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580101855
+created: 1682330681335
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 29-B保存简历到本地
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "applyCreateTime": 0,
+            "applyId": 0,
+            "applySource": 0,
+            "candidateUserId": 1031619314,
+            "clientIp": "182.139.86.78",
+            "companyId": 317196941,
+            "createTime": 1682329491180,
+            "eventId": "ca6bf746ecdd4763b8675a3ddeb3648b",
+            "eventType": 208,
+            "jobId": 0,
+            "jobNumber": "CCL1224312550J40000235301",
+            "jobResumeId": 0,
+            "relationId": 357254419,
+            "resumeCreateTime": 0,
+            "resumeFilter": true,
+            "resumeLanguage": 1,
+            "resumeNumber": "JI316193147R90500000000",
+            "resumeSource": 0,
+            "resumeVersion": 1,
+            "rootCompanyId": 122431255,
+            "scene": 0,
+            "staffId": 60103836,
+            "staffName": "鲜娜",
+            "status": 0,
+            "userMasterId": 60106180
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328090032.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

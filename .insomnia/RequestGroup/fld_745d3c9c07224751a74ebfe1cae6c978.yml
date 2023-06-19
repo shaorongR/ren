@@ -1,0 +1,10 @@
+_id: fld_745d3c9c07224751a74ebfe1cae6c978
+type: RequestGroup
+parentId: fld_8ce95d123c934fd4bafb7e57e7cb5922
+modified: 1679379148204
+created: 1679379148204
+name: C获取会话上下文
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1679379148204

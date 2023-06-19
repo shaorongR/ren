@@ -1,0 +1,32 @@
+_id: req_c5098b4609f64887a9fd9f0faaf14401
+type: Request
+parentId: fld_b6969d60fdf1447cb56d657e077659f1
+modified: 1679019974296
+created: 1678935711199
+url: http://p-im-im.zpidc.com/staffPhrase/deleteStaffPhrase
+name: deleteStaffPhrase
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 9808042,
+    	"rootOrgId":128978215,
+    	"staffId":1161010590,
+    	"sideBusinessType":"P",
+    	"sideBusinessSubtype":"test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678847407864
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

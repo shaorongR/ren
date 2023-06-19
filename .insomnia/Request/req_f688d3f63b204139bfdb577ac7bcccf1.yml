@@ -1,0 +1,27 @@
+_id: req_f688d3f63b204139bfdb577ac7bcccf1
+type: Request
+parentId: fld_035ecfffa63b44e58e75ed8e8d9b5029
+modified: 1676452284920
+created: 1676450757111
+url: http://pb-talentbomb-talentbomb.zpidc.com/talentBomb/talentBomb/listTalentBombDetailAggregation
+name: listTalentBombDetailAggregation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"orderType":0,"beginTime":0,"endTime":0,"page":{"pageNo":1,"pageSize":10},"sessionStatusList":[2,3],"talentBombId":78866901,"rootOrgId":130021672,"userId":1090138714,"staffId":1090138715}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-ZP-at
+    value: 10b68ef7536944089c642f38ad065c8e
+authentication: {}
+metaSortKey: -1675432899025.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

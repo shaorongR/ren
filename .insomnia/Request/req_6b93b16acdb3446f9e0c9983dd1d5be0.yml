@@ -1,0 +1,25 @@
+_id: req_6b93b16acdb3446f9e0c9983dd1d5be0
+type: Request
+parentId: fld_4df5bff41077403eba350ac06f69722f
+modified: 1675932540337
+created: 1675932325421
+url: http://b-caption-resumecaption.zpidc.com/resumecaption/captionService/get
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"context":"null","id":"CC120019970J00267465311","type":"jobKnowledgeCaption"}'
+parameters: []
+headers:
+  - name: content-type
+    value: application/json
+authentication: {}
+metaSortKey: -1675932325421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,18 @@
+_id: env_3f6a7405f26e4cb19929447ba603d390
+type: Environment
+parentId: env_273d56e3ac4a4839a6f5b8821241b5ad
+modified: 1682580016852
+created: 1670235643846
+name: LOCAL
+data:
+  PREFIX: localhost:8083
+  COLOR: red
+  at: QmVhcmVyIGV5SmhiR2NpT2lKSVV6VXhNaUo5LmV5SnpkV0lpT2lJeE1qazNORGN5TVNJc0ltVjRjQ0k2TVRZMk9ERXpOVFEwTVgwLkNEdjRlVkstUHo4SHNnM3ExTTU3NmdLQ1F0dDdjRkRSb3pxamJaajRFTUhBMl9LT3d1bTRhU3BfenNJN2FNYlZxNWZtM3NuRGNObDZJcjRCaWt2elh3
+dataPropertyOrder:
+  "&":
+    - PREFIX
+    - COLOR
+    - at
+color: null
+isPrivate: false
+metaSortKey: 1577087164335

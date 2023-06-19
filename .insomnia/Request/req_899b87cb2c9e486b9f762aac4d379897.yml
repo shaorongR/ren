@@ -1,0 +1,29 @@
+_id: req_899b87cb2c9e486b9f762aac4d379897
+type: Request
+parentId: fld_e2bd7ecec2c74d08907efbd120ce5c1e
+modified: 1681894219424
+created: 1681891069001
+url: http://b-imsearch-search.zpidc.com/userSessionSearch/listUserSession
+name: listUserSession
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"communicateStatusType":"UNKNOWN","inappropriate":false,"page":{"pageNo":1,"pageSize":20},"sessionTypes":["P2P","CAREER","STAFF_JOB_RECOMMEND","USER_OFFICIAL"],"userId":1013453450,"visible":true}'
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: eea8f230-075b-7a8f-5548-8d871b678655
+authentication: {}
+metaSortKey: -1681891069001
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

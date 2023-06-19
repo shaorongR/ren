@@ -1,0 +1,43 @@
+_id: req_1be84d812df047068c106c6673ec8626
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1680861015803
+created: 1680489680940
+url: http://p-im-im.zpidc.com/batchOperation/batchOperation
+name: 创建B2B会话
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"scene": "RELIABLE_DELIVERY",
+    	"accountId": 1161010590,
+    	"accountType": "STAFF",
+    	"operations": [{
+    		"operationType": "PERMISSION_APPLICATION",
+    		"operationMeta": "{\"pcUrl\":\"https://www.baidu.com/\"}"
+    	}],
+    	"partitionId": 128978215,
+    	"context": {
+    		"rootOrgId": 128978215
+    	},
+    	"sideBusinessSubtype": "test",
+    	"sideBusinessType": "Z",
+    	"sideSourceType": "test",
+    	"targetId":1132931088,
+    	"targetType":"STAFF"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680489680940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

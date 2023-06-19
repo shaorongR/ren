@@ -1,0 +1,25 @@
+_id: req_e03b85b2226f47019434b7efff6989b8
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1686620943836
+created: 1686620754008
+url: http://b-operation-operation.zpidc.com/staffServiceCenter/sendServiceGuidance
+name: 发送服务引导卡
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"jobNumber":"CCL1317807300J40522125815","rootOrgId":131780730,"staffId":1167467286,"source":"NPS"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670295337950.5469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

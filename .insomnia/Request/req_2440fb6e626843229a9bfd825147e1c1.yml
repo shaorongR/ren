@@ -1,0 +1,48 @@
+_id: req_2440fb6e626843229a9bfd825147e1c1
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1686741912951
+created: 1670397558608
+url: http://b-operation-operation.zpidc.com/operationScope/listOrgIndustryAndJobTypeConfig
+name: listOrgIndustryAndJobTypeConfig
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":12953791
+    }
+parameters: []
+headers:
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_75b4c1df63d76c7b
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670361043274.9453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

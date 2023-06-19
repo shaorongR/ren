@@ -1,0 +1,49 @@
+_id: req_da32ac55bcf1486ea3278ae3fbbb0477
+type: Request
+parentId: fld_41dd53f0bc2243dca45686add35b5b99
+modified: 1671528375263
+created: 1670245172072
+url: "{{ PREFIX }}/staffEvaluation/isTodayEvaluateSale"
+name: isTodayEvaluateSale-pre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId": 142357841,
+      "staffId": 1138934070
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_2c293f003144242f
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1670280736632.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

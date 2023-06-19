@@ -1,0 +1,25 @@
+_id: req_5b395a5f48ed4dd1bc966373b8614e36
+type: Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1681699281324
+created: 1681699209269
+url: http://localhost:8080/admin/updateAccountIdForRootOrgId
+name: local-updateAccountIdForRootOrgId
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680627563836.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

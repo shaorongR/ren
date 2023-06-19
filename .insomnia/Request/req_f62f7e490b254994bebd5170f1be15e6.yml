@@ -1,0 +1,33 @@
+_id: req_f62f7e490b254994bebd5170f1be15e6
+type: Request
+parentId: fld_41dd53f0bc2243dca45686add35b5b99
+modified: 1670487027043
+created: 1670235646915
+url: http://localhost:8080/staffEvaluation/evaluateSales
+name: evaluateSales
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":49449538,
+    	"staffId": 60099093,
+    	"reasonCodes":[5,6],
+    	"customizeContent":"好评",
+    	"anonymous":false,
+    	"value":5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670280736507.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

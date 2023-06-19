@@ -1,0 +1,14 @@
+_id: env_f11f47f13aff4c5d83ec4c1534c5c1d9
+type: Environment
+parentId: env_273d56e3ac4a4839a6f5b8821241b5ad
+modified: 1682580490093
+created: 1670473180224
+name: pre operation
+data:
+  PREFIX: http://b-operation-operation.zpidc.com
+dataPropertyOrder:
+  "&":
+    - PREFIX
+color: null
+isPrivate: false
+metaSortKey: 1670473180224

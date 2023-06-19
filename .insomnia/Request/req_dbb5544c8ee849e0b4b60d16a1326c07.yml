@@ -1,0 +1,29 @@
+_id: req_dbb5544c8ee849e0b4b60d16a1326c07
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580686990
+created: 1682342994729
+url: http://{{PREFIX}}/test/removeLinkLog
+name: 清缓存
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "userId":60106181,
+        "jobNumber":"CCL1224312550J40000235302"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328045019.275
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

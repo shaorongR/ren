@@ -1,0 +1,25 @@
+_id: req_8779d251a4a24e03a656ad69b4cfcc20
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1686819083375
+created: 1686054828765
+url: http://b-operation-operation.zpidc.com/jobGroup/listRecommendJob
+name: 申领库职位列表
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":13021581,"page":{"pageNo":1,"pageSize":5},"staffIds":[1090200944]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1663425351851.9688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

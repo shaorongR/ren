@@ -1,0 +1,45 @@
+_id: req_b0adadb9452c4a9895c790d754ecf0bf
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580202973
+created: 1682331365719
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 52-C发简历&行号55C发电话
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "processorClass": "com.zhaopin.zservice.bilink.third.consumer.im.AcceptContactEventProcessor",
+        "eventData":
+        {
+            "acceptContactType": 2,
+            "acceptTime": 1682324363079,
+            "doubleVisionTime": 0,
+            "jobNumber": "CCL1224312550J40000235302",
+            "orgId": 127852474,
+            "originType": 1,
+            "referType": 9,
+            "resumeNumber": "JH370166006R90500000000",
+            "rootOrgId": 122431255,
+            "sessionCreateTime": 1682324363079,
+            "sessionId": 108719,
+            "staffId": 60103836,
+            "terminalType": 1,
+            "userId": 60106181
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328045054.1667
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

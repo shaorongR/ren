@@ -1,0 +1,49 @@
+_id: req_a85e5db1708440638cd0786feccf1420
+type: Request
+parentId: fld_b6969d60fdf1447cb56d657e077659f1
+modified: 1679361517441
+created: 1678960357414
+url: http://b-bapi-bapi.zpidc.com/im/staffPhrase/hasStaffJobGreetingPriority
+name: hasStaffJobGreetingPriority-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type":"JOB_GREETING",
+    	"sceneRelationId":"CCL1289782150J40398638406"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: b08e8f15ed0c41628785cc964e562474
+  - name: x-zp-at
+    value: 4234ab8e7f694b34be3b5045294089d3
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1678847407789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

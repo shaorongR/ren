@@ -1,0 +1,28 @@
+_id: req_024bfd3514584883be27cc5e5e3ac03a
+type: Request
+parentId: fld_b74378b0fe8148f3a3b2c4f281fcdd27
+modified: 1672228388434
+created: 1672228272450
+url: "{{ PREFIX }}/user/getRecommenderBubble"
+name: getRecommenderBubble
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId":1122495620
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671690860097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

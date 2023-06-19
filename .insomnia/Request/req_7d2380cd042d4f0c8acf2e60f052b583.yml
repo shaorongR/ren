@@ -1,0 +1,29 @@
+_id: req_7d2380cd042d4f0c8acf2e60f052b583
+type: Request
+parentId: fld_dce10154eefd4de98bc0aa0c61c167f6
+modified: 1676953223525
+created: 1676343345196
+url: http://b-operation-operation.zpidc.com/workOrder/getOrderInfoForBackSource
+name: getOrderInfoForBackSource
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":13410281,
+    	"orderId":17889
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671728686482.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

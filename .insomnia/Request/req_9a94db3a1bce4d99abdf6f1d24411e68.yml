@@ -1,0 +1,32 @@
+_id: req_9a94db3a1bce4d99abdf6f1d24411e68
+type: Request
+parentId: fld_a1853bf867c647b0949a8ee0a03dd393
+modified: 1675154052754
+created: 1675154031836
+url: http://localhost:8080/jobexposure/exposure/listJobExposure
+name: listJobExposure
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":128242486,
+    	"staffId":60124734,
+    	"type":"ACTIVELY_FIND_JOB",
+    	"sideBusinessType":"C",
+    	"sideBusinessSubtype":"收藏"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674682976286.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

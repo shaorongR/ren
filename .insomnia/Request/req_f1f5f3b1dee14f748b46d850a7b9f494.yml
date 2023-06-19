@@ -1,0 +1,29 @@
+_id: req_f1f5f3b1dee14f748b46d850a7b9f494
+type: Request
+parentId: fld_7c82ecafc9594ddd82ad85d1aec49006
+modified: 1680834799552
+created: 1673537760006
+url: http://b-officialaccountresume-officialaccountresume.zpidc.com/adminService/sendRecommendActiveStaffEvent
+name: admin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	  "rootOrgId": 128978215,
+        "staffId": 1161010590
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673338800263.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

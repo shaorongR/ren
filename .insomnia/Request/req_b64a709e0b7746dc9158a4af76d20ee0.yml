@@ -1,0 +1,25 @@
+_id: req_b64a709e0b7746dc9158a4af76d20ee0
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1686203765724
+created: 1685412686496
+url: http://b-operation-operation.zpidc.com/jobGroup/getJob
+name: getJob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":12978261,"jobGroupAndJobId":2593605,"sideBusinessSubtype":"ZY_MATCHING_DETAIL","sideBusinessType":"OPERATION"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669966705069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

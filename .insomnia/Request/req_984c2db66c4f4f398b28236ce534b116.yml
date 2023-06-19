@@ -1,0 +1,33 @@
+_id: req_984c2db66c4f4f398b28236ce534b116
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1679379574490
+created: 1679379397247
+url: http://p-im-im.zpidc.com/sessionV3/getSessionByAccount
+name: getSessionByAccount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":1110921847,
+    	"partitionId":128978215,
+    	"accountType":"STAFF",
+    	"targetId":602579157,
+    	"targetType":"USER",
+    	"withUnread":true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661244900779.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

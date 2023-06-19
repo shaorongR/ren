@@ -1,0 +1,25 @@
+_id: req_520c6e247c9841f3acc5d8d620f851c0
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1686207820514
+created: 1686207796746
+url: http://b-operation-operation.zpidc.com/jobGroup/newApplyJob
+name: 新版申领职位
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":13181261,"jobNumbers":["CCL1338995330J40325192603"],"sideBusinessSubtype":"NEW_APPLY_JOB","sideBusinessType":"OPERATION"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1662335126315.7969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

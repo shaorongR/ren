@@ -1,0 +1,32 @@
+_id: req_12430ffb1ff447e7ae524bfc745ea5dd
+type: Request
+parentId: fld_39133c7354de40529f77e8a4b4f15317
+modified: 1676343328071
+created: 1672232369394
+url: "{{PREFIX}}/account/updateAccount"
+name: updateAccount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":13374141,
+    	"sideBusinessType":"Z",
+    	"sideBusinessSubtype":"z",
+    	"updateAccountId":13374141,
+    	"imagePhotoFileId":1671764943683219716
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672232369394
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_4835e9bf1d724c42b097ac68e1bcdcde
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1684244435757
+created: 1684206694915
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 网约车-C主投
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >+
+    {
+
+    "scene": "APPLY_TALK_V2",
+
+    "operationType": "ONLINE_TAXI_FEE_REMINDER_V2",
+
+    "context": "{\"messageType\":228,\"tags\":[],\"detectMessage\":false,\"senderType\":\"STAFF\",\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+
+    "condition": "",
+
+    "priority": 12,
+
+    "state": "VALID",
+
+    "description": "给C发送收费信息引导卡片",
+
+    "env": "prod"
+
+    }
+
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1678074141765.0566
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

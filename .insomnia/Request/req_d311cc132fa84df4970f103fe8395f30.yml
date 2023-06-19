@@ -1,0 +1,48 @@
+_id: req_d311cc132fa84df4970f103fe8395f30
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580221523
+created: 1682342439697
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: B搜索聊
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"processorClass": "com.zhaopin.zservice.bilink.third.consumer.im.TalentSearchAddEventProcessor",
+    	"eventData": {
+    		"businessSystem": "24",
+    		"channel": -1,
+    		"clientType": "i",
+    		"companyId": 128088344,
+    		"createTime": 1682342134266,
+    		"doubleVisionTime": 1682342134266,
+    		"jobNumber": "CCL1224312550J40000235302",
+    		"orignType": 1,
+    		"prologue": "",
+    		"realSessionId": "3f52fbabf76a7522363d211c65d8b5b1",
+    		"referType": 11,
+    		"resumeNumber": "JM803796632R90500000000",
+    		"rootCompanyId": 122431255,
+    		"sessionId": 108719,
+    		"sessionType": 1,
+    		"staffId": 60103836,
+    		"terminalType": 0,
+    		"userId": 60106181
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328045019.5496
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

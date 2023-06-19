@@ -1,0 +1,68 @@
+_id: req_25df08b81b664247ac68d052c4762bb3
+type: Request
+parentId: fld_142bda5eef78448db96a0e6ad78406a0
+modified: 1684399039631
+created: 1671615207326
+url: http://d-es-search.zpidc.com/search/recall
+name: es-search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "query": {
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "contact.canReceiveZhiLianForBWechat": "true"
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "staffId": {
+                                                "gt": 1167305900
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "size": 10,
+            "_source": {
+                "includes": [
+                    "staffId",
+                    "root_company_id"
+                ]
+            },
+            "sort": [
+                {
+                    "staffId": {
+                        "order": "asc"
+                    }
+                }
+            ]
+        },
+        "name": "kp_staff_search"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671615207326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

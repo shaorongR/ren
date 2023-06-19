@@ -1,0 +1,43 @@
+_id: req_4b6dacf6e36f44bfb51d1b8161309122
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580128272
+created: 1682331906487
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 34-B搜索聊
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "assetType": 1,
+            "channel": -1,
+            "companyId": 316954430,
+            "createTime": 1682331795330,
+            "free": false,
+            "jobNumber": "CCL1224312550J40000235301",
+            "realSessionId": "bb02681728d020016246d94fcd06a8fe",
+            "resumeNumber": "JM107785960R90250000000",
+            "rootCompanyId": 122431255,
+            "sessionId": 108719,
+            "staffId": 60103836,
+            "userId": 60106180
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328067244.3848
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

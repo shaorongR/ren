@@ -1,0 +1,33 @@
+_id: req_42d8b7cdfc1a4b889dc17645c5e5029a
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1682412228576
+created: 1681812481325
+url: http://p-im-im.zpidc.com/messageV3/updateMessageState
+name: 批投不合适
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sessionId":"749aff06b78c74ceaa0a2a79608a82a7",
+    	"accountId":1161010590,
+    	"accountType":"STAFF",
+    	"partitionId":128978215,
+    	"messageId":"25092959f39e4a56a5843b1b883c875f",
+    	"status":3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1679940151310.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

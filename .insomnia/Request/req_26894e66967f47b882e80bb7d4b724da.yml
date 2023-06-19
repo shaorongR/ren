@@ -1,0 +1,56 @@
+_id: req_26894e66967f47b882e80bb7d4b724da
+type: Request
+parentId: fld_41dd53f0bc2243dca45686add35b5b99
+modified: 1671436654513
+created: 1670404202958
+url: "{{PREFIX}}/staffEvaluation/evaluateAccount"
+name: evaluateAccount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":4392,
+    	"staffId": 1150593204,
+    	"jobNumber":"CC000043920J40367743511",
+    	"reasonCodes":[1],
+    	"customizeContent":"差评",
+    	"anonymous":false,
+    	"value":2,
+    	"sideBusinessType":"Z",
+    	"sideBusinessSubtype":"z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_75b4c1df63d76c7b
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1670280736682.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

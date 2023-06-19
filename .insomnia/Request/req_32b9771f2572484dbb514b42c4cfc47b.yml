@@ -1,0 +1,25 @@
+_id: req_32b9771f2572484dbb514b42c4cfc47b
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1686621010738
+created: 1686620976299
+url: http://b-operation-operation.zpidc.com/staffServiceCenter/jobNumberOperable
+name: 是否可被运营
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"jobNumber":"CCL1317807300J40522125815","rootOrgId":131780730,"staffId":1167467286,"scence":"RESUME_CARD_NEGATIVE_FEEDBACK"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670288037366.586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

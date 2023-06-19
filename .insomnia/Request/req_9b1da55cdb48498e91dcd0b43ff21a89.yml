@@ -1,0 +1,43 @@
+_id: req_9b1da55cdb48498e91dcd0b43ff21a89
+type: Request
+parentId: fld_b4907b3a209347a6b3d042d585603980
+modified: 1673343397553
+created: 1673338168795
+url: http://b-userunidirection-userunidirection.zpidc.com/userUnidirectional/recommendJob
+name: recommendJob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "feedbackCardHeaderText": "您好，我们急招园艺师，需要优秀人才，期待您的回复>>",
+        "showPhoto": "1",
+        "recommendedReason": "该职位为平台推荐",
+        "rootOrgId": 141359879,
+        "userId": 1082234758,
+        "sideSourceId": "test",
+        "sideBusinessSubtype": "OPERATION",
+        "sideBusinessType": "OPERATION",
+        "resumeNumber": "JI822347587R90500000000",
+        "sideSourceType": "USER_UNIDIRECTION_INITIATOR",
+        "jobNumber": "CCL1413598790J40426596214",
+        "staffId": 1135055949,
+        "resumeLanguage": 1,
+    	"method":"-",
+    	"methodGroup":"group",
+    	"queryId":1000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673338168795
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

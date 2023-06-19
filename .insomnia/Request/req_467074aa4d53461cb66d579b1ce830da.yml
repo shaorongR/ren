@@ -1,0 +1,39 @@
+_id: req_467074aa4d53461cb66d579b1ce830da
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580074878
+created: 1682331101559
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 14-B拨打电话
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "callInTime": 1682330664000,
+            "duration": 376,
+            "endTime": 1682331060000,
+            "rootOrgId": 122431255,
+            "staffId": 60103836,
+            "state": "CONNECTED",
+            "userId": 60106180,
+            "userName": "许松松"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328135045.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

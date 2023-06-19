@@ -1,0 +1,81 @@
+_id: req_45241769b72947bfa8074d573add9a6c
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580069382
+created: 1682331440222
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 9&10B自主回复消息&50&51-C回复消息
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "processorClass": "",
+        "eventData":
+        {
+            "b2cExt":
+            {
+                "companyId": 146371167,
+                "jobNumber": "CCL1224312550J40000235301",
+                "resumeNumber": "JI860990621R90500000000",
+                "rootCompanyId": 122431255,
+                "sessionId": 108719,
+                "staffId": 60103836,
+                "userId": 60106180
+            },
+            "body": "{\"ext\":\"{\\\"extFromServer\\\":{\\\"businessSystem\\\":\\\"83\\\",\\\"clientType\\\":\\\"n\\\",\\\"env\\\":\\\"pre\\\",\\\"sendByZim\\\":true,\\\"sendMessageId\\\":\\\"b4394cd88c494423a48fd7d32fb4552b\\\",\\\"senderName\\\":\\\"自动化测试\\\",\\\"senderPhoto\\\":\\\"https://rd5-public.zhaopin.cn/imgs/avatar_m2.png\\\",\\\"tags\\\":[2,1]}}\",\"msgTimestamp\":\"1682331353758\",\"msgType\":\"TEXT\",\"msgidServer\":\"6674565039290\",\"fromAccount\":\"60103836\",\"fromClientType\":\"REST\",\"to\":\"60106180\",\"eventType\":\"1\",\"body\":\"Hi，看了您的过往经历感觉您比较符合我们的职位要求，方便聊一聊吗？\",\"convType\":\"PERSON\",\"msgidClient\":\"ac2ce594-8d57-48f3-919c-deaf897d248b\",\"resendFlag\":\"0\"}",
+            "channelMessageId": "6674565039290",
+            "dingTalk": false,
+            "fromClientType": "REST",
+            "messageFrom": 60103836,
+            "messageFromType": 1,
+            "messageSendTime": 1682331353758,
+            "messageTo": 1086099062,
+            "messageToType": 2,
+            "msgType": 0,
+            "parsedContentDTO":
+            {
+                "channelMessageId": "6674565039290",
+                "detailContent":
+                {
+                    "content": "Hi，看了您的过往经历感觉您比较符合我们的职位要求，方便聊一聊吗？",
+                    "text": "Hi，看了您的过往经历感觉您比较符合我们的职位要求，方便聊一聊吗？"
+                },
+                "listContent":
+                {
+                    "text": "Hi，看了您的过往经历感觉您比较符合我们的职位要求，方便聊一聊吗？"
+                },
+                "sendByZim": true,
+                "shouldPush": false,
+                "tags":
+                [
+                    2,
+                    1
+                ]
+            },
+            "referType": 11,
+            "relationId": "1-1166886233-1086099062",
+            "sessionCreateTime": 1682331352901,
+            "sessionFrom": 60103836,
+            "sessionFromType": 1,
+            "sessionId": "bb02681728d020016246d94fcd06a8fe",
+            "sessionTo": 1086099062,
+            "sessionToType": 2,
+            "sessionType": 1,
+            "sourceType": 6
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328144048.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

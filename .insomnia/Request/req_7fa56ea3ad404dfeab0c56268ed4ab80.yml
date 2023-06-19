@@ -1,0 +1,45 @@
+_id: req_7fa56ea3ad404dfeab0c56268ed4ab80
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1681557105535
+created: 1681268391488
+url: http://b-operation-operation.zpidc.com/operationScope/importOrgIndustryAndJobTypeConfig
+name: importOrgIndustryAndJobTypeConfig
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":12953791,"url":"https://storage-public.zhaopin.cn/operation/import/job/1681550207719128519/%E8%A1%8C%E8%81%8C%E5%8C%853.xlsx"}'
+parameters: []
+headers:
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: 0f16762f9efa4d61ad670213a4daab57
+  - name: x-zp-at
+    value: C_75b4c1df63d76c7b
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670376100742.2554
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

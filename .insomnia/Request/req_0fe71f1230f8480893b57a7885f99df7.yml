@@ -1,0 +1,30 @@
+_id: req_0fe71f1230f8480893b57a7885f99df7
+type: Request
+parentId: fld_7c82ecafc9594ddd82ad85d1aec49006
+modified: 1673507435292
+created: 1673405281387
+url: http://b-officialaccountresume-officialaccountresume.zpidc.com/officialAccountResume/listLastPackageResume
+name: listLastPackageResume
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	    "rootOrgId": 130138075,
+        "staffId": 1090600058,
+    	"states":["PENDING"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673338529634
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

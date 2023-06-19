@@ -1,0 +1,29 @@
+_id: req_18e3c9c7785c47978e6382e27e9db806
+type: Request
+parentId: fld_a1853bf867c647b0949a8ee0a03dd393
+modified: 1680076414363
+created: 1675217753199
+url: http://b-jobexposure-jobexposure.zpidc.com/jobexposure/exposure/countUnReadJobExposure
+name: countUnReadJobExposure-pre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":84027024,
+    	"staffId":1093695130
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675018817320.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

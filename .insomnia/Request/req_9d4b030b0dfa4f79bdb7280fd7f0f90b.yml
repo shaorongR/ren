@@ -1,0 +1,27 @@
+_id: req_9d4b030b0dfa4f79bdb7280fd7f0f90b
+type: Request
+parentId: fld_035ecfffa63b44e58e75ed8e8d9b5029
+modified: 1676452287228
+created: 1676452255095
+url: http://localhost:8080/talentBomb/talentBomb/listTalentBombDetailAggregation
+name: listTalentBombDetailAggregation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"orderType":0,"beginTime":0,"endTime":0,"page":{"pageNo":1,"pageSize":10},"sessionStatusList":[2,3],"talentBombId":78866901,"rootOrgId":130021672,"userId":1090138714,"staffId":1090138715}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-ZP-at
+    value: 10b68ef7536944089c642f38ad065c8e
+authentication: {}
+metaSortKey: -1675281831728.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

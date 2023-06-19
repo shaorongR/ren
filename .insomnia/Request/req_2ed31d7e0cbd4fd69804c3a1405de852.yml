@@ -1,0 +1,63 @@
+_id: req_2ed31d7e0cbd4fd69804c3a1405de852
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580134199
+created: 1682331159114
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: 35-B人才沟通
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "processorClass": "com.zhaopin.zservice.bilink.third.consumer.ResumeDownloadEventProcessor",
+        "eventData":
+        {
+            "applyCreateTime": 1682329289673,
+            "applyId": 559127106603,
+            "applySource": 2,
+            "at": "89c9fb9e9e3c42c48f6c7b79d2f153cd",
+            "candidateUserId": 1039834129,
+            "clientIp": "117.139.163.31",
+            "companyId": 316228867,
+            "contractPhoneType": 0,
+            "createTime": 1682329289673,
+            "eventId": "ea3007e59c9949dc8447e3bdf2bdf3bf",
+            "eventType": 201,
+            "folderId": 0,
+            "interviewTime": 0,
+            "jobId": 40421245006,
+            "jobNumber": "CCL1224312550J40000235302",
+            "jobResumeId": 559127106603,
+            "jobTitle": "嵌入式软件工程师",
+            "postType": 0,
+            "relationId": 361401842,
+            "resumeFilter": true,
+            "resumeLanguage": 1,
+            "resumeNumber": "JI398341299R90500000000",
+            "resumeSource": 2,
+            "resumeVersion": 1,
+            "rootCompanyId": 122431255,
+            "staffId": 60103836,
+            "staffJob": "",
+            "staffName": "谢剑",
+            "status": 2,
+            "userMasterId": 60106181,
+            "userName": "薛元浩",
+            "userSource": 2
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328066400.3828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

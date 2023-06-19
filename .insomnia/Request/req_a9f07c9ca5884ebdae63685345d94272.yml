@@ -1,0 +1,36 @@
+_id: req_a9f07c9ca5884ebdae63685345d94272
+type: Request
+parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
+modified: 1676877285327
+created: 1676877278580
+url: http://resumeapi.zpidc.com/resumeextend/resumeV2/createExportResumeTask
+name: createExportResumeTask
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "rootOrgId": 135070536,
+        "staffId": 1108030239,
+        "fileType": "WORD",
+        "exportItems": {
+            "resumeNumber": "JI934030119R90500000000",
+            "resumeLanguage": 1
+        }
+    }
+parameters: []
+headers:
+  - name: x-zp-org-id
+    value: "135070536"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676877278580
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

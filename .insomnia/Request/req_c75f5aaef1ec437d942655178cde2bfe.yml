@@ -1,0 +1,39 @@
+_id: req_c75f5aaef1ec437d942655178cde2bfe
+type: Request
+parentId: fld_d454266d8d9f49a993e5d231f5e57159
+modified: 1682412421537
+created: 1678348111261
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 靠谱投场景操作
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "scene":"RELIABLE_DELIVERY",
+        "operationType": "PERMISSION_APPLICATION",
+        "context": "{\"messageType\":181,\"tags\":[],\"detectMessage\":true,\"visible\":true,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+        "condition":"",
+        "priority": 1,
+        "state": "VALID",
+        "description": "靠谱投",
+        "env":"prod"
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1678279215149.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

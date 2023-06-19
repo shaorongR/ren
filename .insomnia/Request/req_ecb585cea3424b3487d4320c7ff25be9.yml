@@ -1,0 +1,34 @@
+_id: req_ecb585cea3424b3487d4320c7ff25be9
+type: Request
+parentId: fld_7c82ecafc9594ddd82ad85d1aec49006
+modified: 1675418635097
+created: 1673344232820
+url: http://b-officialaccountresume-officialaccountresume.zpidc.com/officialAccountResume/listRecommendedPackageResume
+name: listRecommendedPackageResume
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	    "rootOrgId": 146038956,
+        "staffId": 1157442173,
+    	"officialAccountId":100100,
+    	"page":{
+    		"pageNo":1,
+    		"pageSize":10
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673338890473
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

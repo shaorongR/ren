@@ -1,0 +1,29 @@
+_id: req_07accf6491d44e24a375c9553f657ab7
+type: Request
+parentId: fld_dce10154eefd4de98bc0aa0c61c167f6
+modified: 1676969697495
+created: 1676965593400
+url: http://b-operation-operation.zpidc.com/toolsManager/finishWorkOrder
+name: finishWorkOrder
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId":13410281,
+    	"jobNumber":"CC000043920J40359929111"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671728686565.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

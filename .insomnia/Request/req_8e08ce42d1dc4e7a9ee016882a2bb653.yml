@@ -1,0 +1,32 @@
+_id: req_8e08ce42d1dc4e7a9ee016882a2bb653
+type: Request
+parentId: fld_142bda5eef78448db96a0e6ad78406a0
+modified: 1672810937284
+created: 1672797123185
+url: http://b-imsearch-search.zpidc.com/session/countStaffSessionV2
+name: countStaffSessionV2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":141274655,
+    	"staffId":1150621441,
+    	"withUnread":false,
+    	"excludeDirectRecommend":true,
+    	"targetAccountTypes":["USER"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672740840004
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

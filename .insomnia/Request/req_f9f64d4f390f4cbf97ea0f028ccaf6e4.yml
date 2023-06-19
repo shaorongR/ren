@@ -1,0 +1,32 @@
+_id: req_f9f64d4f390f4cbf97ea0f028ccaf6e4
+type: Request
+parentId: fld_f48491cfd85a475d871dc5cc29be62cd
+modified: 1679478309262
+created: 1679473510728
+url: http://z-im-im.zpidc.com/session/clearLastMessageReadTime
+name: clearLastMessageReadTime
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "accountId": 1108014581,
+        "accountType": "STAFF",
+        "sessionId": "a9cf8c255f3f383ee8c02c7fd3161a4c",
+        "sideBusinessType": "Z",
+        "sideBusinessSubtype": "TEST"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677909431442.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

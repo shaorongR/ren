@@ -1,0 +1,46 @@
+_id: req_87d0e23ddf3a4085abfdf0161fbfbdc3
+type: Request
+parentId: fld_fb4a93d39561491c871b04fb2f706d4b
+modified: 1677227487583
+created: 1677227351826
+url: http://b-bapi-bapi.zpidc.com/brpo/recommendResumeSearch/listRecommendResume
+name: listRecommendResume-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {"orderType":"MODIFIED_TIME_DESC","page":{"pageNo":1,"pageSize":10},"rootOrgId":124266666,"jobNumber":"CCL1242666660J40357175810","staffId":1108572967,"states":["INAPPROPRIATE"]}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: C_835f615e77aaddf9
+  - name: x-zp-at
+    value: C_835f615e77aaddf9
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1677227351826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

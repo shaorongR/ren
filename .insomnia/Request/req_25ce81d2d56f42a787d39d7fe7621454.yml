@@ -1,0 +1,64 @@
+_id: req_25ce81d2d56f42a787d39d7fe7621454
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1682599628266
+created: 1681796128160
+url: http://p-im-im.zpidc.com/talentExecute/execute
+name: 执行抢人才场景
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "businessType": "b",
+        "metaType": "TALENT",
+        "orderContext": {
+            "assetPay": false,
+            "chatRightsPay": false,
+            "orderNo": "811cde85952a46feaea3c2225ad9d627",
+            "paymentNo": "P20230418155014075685966",
+            "productId": "72caaed98c0d4852972d178d6cb55461"
+        },
+        "ownerId": 1161010590,
+        "processorType": "TALENT",
+        "productMeta": "{\"batchApplyTalent\":true,\"channel\":\"UNKNOWN\",\"executed\":true,\"extra\":\"null\",\"free\":true,\"jobNumber\":\"CCL1289782150J40397204406\",\"resumeLanguage\":1,\"resumeNumber\":\"MboX)v91gDDu6gQrodW6ke2gETjNrHPn\",\"resumeVersion\":1,\"rootCompanyId\":128978215,\"sendSystemAskForContact\":true,\"staffId\":1161010590,\"userId\":1071248428}",
+        "quantity": 1,
+        "referType": "ORDER",
+        "sideBusinessSubtype": "test",
+        "sideBusinessType": "BPC",
+        "sideSourceId": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: d1dc40b352af436bbcc5fb16188c392b
+  - name: x-zp-at
+    value: be51a993475a4558b780840eca0a4ad9
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1679940151339
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

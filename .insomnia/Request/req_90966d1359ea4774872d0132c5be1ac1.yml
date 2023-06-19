@@ -1,0 +1,32 @@
+_id: req_90966d1359ea4774872d0132c5be1ac1
+type: Request
+parentId: fld_95e7ae2e1f3246c5955f7edb2e1d888b
+modified: 1679479735086
+created: 1675150367701
+url: http://localhost:8080/resumerecommend/recommend/listJobExposure
+name: listJobExposure
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"rootOrgId":128242486,
+    	"staffId":60124734,
+    	"type":"ACTIVELY_FIND_JOB",
+    	"sideBusinessType":"OPERATION",
+    	"sideBusinessSubtype":"急求职"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674235188241.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

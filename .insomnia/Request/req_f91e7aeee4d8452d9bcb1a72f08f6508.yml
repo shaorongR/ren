@@ -1,0 +1,44 @@
+_id: req_f91e7aeee4d8452d9bcb1a72f08f6508
+type: Request
+parentId: fld_e150b729af00424ca01a3a5ddf8e1c98
+modified: 1682580212676
+created: 1682390295982
+url: http://{{PREFIX}}/pulsarDebugService/mockProcess
+name: B点击置顶 & C点击置顶
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "processorClass": "com.zhaopin.zservice.bilink.third.consumer.im.SessionTopEventProcessor",
+        "eventData":
+        {
+            "companyId": 128978215,
+            "jobNumber": "CCL1224312550J40000235302",
+            "operateTime": 1682390163915,
+            "operatorOriginType": 2,
+            "originType": 1,
+            "referType": 11,
+            "resumeNumber": "JI654465986R90500000000",
+            "rootCompanyId": 122431255,
+            "sessionCreateTime": 1682237040631,
+            "sessionId": 108719,
+            "staffId": 60103836,
+            "top": 1,
+            "userId": 60106181
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682328045020.6484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
