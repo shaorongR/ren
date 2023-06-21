@@ -1,0 +1,25 @@
+_id: req_79cb380dbfef4e4582435e57e7411901
+type: Request
+parentId: fld_9e700166de2e493d818a6da4f62980e1
+modified: 1687259415881
+created: 1687259041759
+url: "http://z-org-org.zpidc.com/org/getQualifiedOrg\t"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"rootOrgId":141650075}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687259041759
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

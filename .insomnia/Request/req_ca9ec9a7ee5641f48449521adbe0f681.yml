@@ -1,0 +1,35 @@
+_id: req_ca9ec9a7ee5641f48449521adbe0f681
+type: Request
+parentId: fld_1f6444dabf66458e983fc6437a529e7f
+modified: 1687261636044
+created: 1687256159121
+url: http://b-bapi-bapi.zpidc.com/boperation/staffServiceCenter/jobNegativeFeedback
+name: 负反馈发引导卡
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{    "jobNumber": "CCL1416500750J40001715701"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-color
+    value: red
+  - name: x-zp-client-id
+    value: a8adeda7-0116-4fe5-a5f5-0b3e286f5729
+  - name: x-zp-rt
+    value: d2caf849764a409080f8797c07e4f964
+  - name: x-zp-at
+    value: c23117b16c414159a0afef910b9b97f5
+  - name: x-zp-business-system
+    value: "20"
+authentication: {}
+metaSortKey: -1670281649355.62
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
