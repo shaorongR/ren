@@ -1,0 +1,25 @@
+_id: req_999642bbfdbb43f79ff3ddfc9058fdd0
+type: Request
+parentId: fld_f1f04ef922a0469e9436d586e714a084
+modified: 1689319257151
+created: 1689318196294
+url: http://z-candidate-candidate.zpidc.com/candidate/getCandidate
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"includingNullResult":true,"includingSources":false,"jobNumber":"CC158367420J40195515215","rootOrgId":15836742,"userId":1160292381}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689318196294
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

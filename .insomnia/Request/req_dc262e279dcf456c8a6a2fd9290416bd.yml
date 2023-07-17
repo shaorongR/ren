@@ -1,7 +1,7 @@
 _id: req_dc262e279dcf456c8a6a2fd9290416bd
 type: Request
 parentId: fld_1f6444dabf66458e983fc6437a529e7f
-modified: 1686732416626
+modified: 1687769561779
 created: 1686731461866
 url: http://b-operation-operation.zpidc.com/staffServiceCenter/neededRecommend
 name: 点击免费
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"accountId":13021581,"jobNumber":"CCL1300237720J40418571913","rootOrgId":130023772,"scene":"SERARCH_RESUME_LIST_NEGATIVE_FEEDBACK","staffId":1090200944}'
+  text: '{"accountId":13029131,"jobNumber":"CCL1300491210J40432139611","rootOrgId":130049121,"scene":"SERARCH_RESUME_LIST_NEGATIVE_FEEDBACK","staffId":1171327899}'
 parameters: []
 headers:
   - name: Content-Type

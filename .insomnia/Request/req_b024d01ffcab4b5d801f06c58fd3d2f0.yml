@@ -1,15 +1,15 @@
-_id: req_a64fa691911b47759c267bee376707fe
+_id: req_b024d01ffcab4b5d801f06c58fd3d2f0
 type: Request
 parentId: fld_1f6444dabf66458e983fc6437a529e7f
-modified: 1689057221016
-created: 1686741952657
-url: http://b-operation-operation.zpidc.com/staffServiceCenter/listOperationJob
-name: rd精选人才职位列表
+modified: 1689317374498
+created: 1688717347701
+url: http://b-operation-operation.zpidc.com/staffServiceCenter/listRecommendResume
+name: rd精选人才简历列表
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"page":{"pageNo":1,"pageSize":10000},"rootOrgId":122891045,"staffId":1057053177}'
+  text: '{"jobNumber":"CC158367420J40195515215","page":{"pageNo":1,"pageSize":20},"rootOrgId":15836742,"staffId":13433311}'
 parameters: []
 headers:
   - name: Content-Type
@@ -17,7 +17,7 @@ headers:
   - name: x-zp-color
     value: red
 authentication: {}
-metaSortKey: -1670282561928.6152
+metaSortKey: -1670282105642.1177
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,36 @@
+_id: req_165fe219f69d4e688645f258e1467036
+type: Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1689573249679
+created: 1689320870402
+url: http://b-operation-operation.zpidc.com/admin/executePulsarConsumer
+name: 发事件
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "consumerId": "candidateStatePulsarConsumer",
+        "message": {
+            "id": 44435700915,
+            "partitionId": 15836742,
+            "jobNumber": "CC158367420J40195515215",
+            "source":"INTERESTED",
+    				"target":"INTERESTED",
+    				"modifierId":653906372
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689320870402
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

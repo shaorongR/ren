@@ -1,23 +1,21 @@
-_id: req_a64fa691911b47759c267bee376707fe
+_id: req_212ce36dc49d46599ad76833b40e99a2
 type: Request
 parentId: fld_1f6444dabf66458e983fc6437a529e7f
-modified: 1689057221016
-created: 1686741952657
-url: http://b-operation-operation.zpidc.com/staffServiceCenter/listOperationJob
-name: rd精选人才职位列表
+modified: 1687763390189
+created: 1687763349333
+url: http://b-operation-operation.zpidc.com/staffServiceCenter/sendServiceGuidanceByAccount
+name: 详情页发送服务引导卡
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"page":{"pageNo":1,"pageSize":10000},"rootOrgId":122891045,"staffId":1057053177}'
+  text: '{"jobNumber":"CCL1317807300J40522125815","rootOrgId":131780730,"staffId":1167467286,"scene":"SERARCH_RESUME_LIST_NEGATIVE_FEEDBACK"}'
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-  - name: x-zp-color
-    value: red
 authentication: {}
-metaSortKey: -1670282561928.6152
+metaSortKey: -1670291687658.5664
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

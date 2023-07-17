@@ -1,0 +1,10 @@
+_id: fld_3ff7066d6e104f599ccc2a50802553a9
+type: RequestGroup
+parentId: wrk_ac6f9f875a6d4ed2be911f40b7c57134
+modified: 1689584785046
+created: 1689584785046
+name: java-p-mail
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1689584785046

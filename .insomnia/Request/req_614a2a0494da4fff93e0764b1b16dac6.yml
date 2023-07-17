@@ -1,0 +1,25 @@
+_id: req_614a2a0494da4fff93e0764b1b16dac6
+type: Request
+parentId: fld_b4dbf27103c345289af91073a86f2d9d
+modified: 1689058387345
+created: 1688547821307
+url: http://b-operation-operation.zpidc.com/jobGroup/getSummaryJob
+name: 回源接口
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":13256101,"id":2267433,"includeCount":true,"includeSession":false}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661790013547.711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

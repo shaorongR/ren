@@ -1,10 +1,10 @@
-_id: req_21bca982de6e4b2fab84fe44817e175a
+_id: req_075ac79476e94351a8700904783c30bb
 type: Request
 parentId: fld_b6969d60fdf1447cb56d657e077659f1
-modified: 1687340626322
-created: 1678847407964
-url: http://p-im-im.zpidc.com/staffPhrase/createStaffPhrase
-name: createStaffPhrase
+modified: 1687342264439
+created: 1687332541440
+url: http://p-im-im.zpidc.com/staffPhrase/deleteStaffPhrase
+name: 删除招呼语
 description: ""
 method: POST
 body:
@@ -13,18 +13,16 @@ body:
     {
     	"rootOrgId":128978215,
     	"staffId":1161010590,
-    	"type":"JOB_GREETING",
-    	"content":"职位招呼语",
-    	"sceneRelationId":"CCL1289782150J40413595806",
+    	"id":11111882,
     	"sideBusinessType":"P",
-    	"sideBusinessSubtype":"test"
+    	"sideBusinessSubtype":"fix"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1678847407926.5
+metaSortKey: -1678847407932.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

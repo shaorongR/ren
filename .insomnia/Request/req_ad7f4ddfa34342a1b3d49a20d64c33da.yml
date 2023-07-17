@@ -1,0 +1,28 @@
+_id: req_ad7f4ddfa34342a1b3d49a20d64c33da
+type: Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1688725317873
+created: 1688710182653
+url: http://b-operation-operation.zpidc.com/admin/saveSubSourceType
+name: updateJobGroupAndJob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids":[757591]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680524151664.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

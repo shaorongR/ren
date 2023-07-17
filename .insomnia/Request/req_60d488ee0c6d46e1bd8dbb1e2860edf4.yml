@@ -1,0 +1,28 @@
+_id: req_60d488ee0c6d46e1bd8dbb1e2860edf4
+type: Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1688710842434
+created: 1688549481472
+url: http://localhost:8080/admin/saveSubSourceType
+name: local-updateJobGroupAndJob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids":[1,2,682]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680558622388.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

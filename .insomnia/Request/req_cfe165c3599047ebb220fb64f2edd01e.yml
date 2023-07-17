@@ -1,0 +1,31 @@
+_id: req_cfe165c3599047ebb220fb64f2edd01e
+type: Request
+parentId: fld_4d05aa247a6b44dc87d82c035d42f058
+modified: 1688009918738
+created: 1688009775360
+url: http://localhost:8080/reportEvent/reportEvent
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":1,
+    	"staffId":1,
+    	"eventType":"VIEW_PHONE",
+    	"eventContent":"测试本地保存上报事件1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1688009775360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

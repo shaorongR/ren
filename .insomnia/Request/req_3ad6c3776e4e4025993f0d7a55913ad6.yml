@@ -1,0 +1,34 @@
+_id: req_3ad6c3776e4e4025993f0d7a55913ad6
+type: Request
+parentId: fld_3ff7066d6e104f599ccc2a50802553a9
+modified: 1689585043921
+created: 1689584706106
+url: http://p-mail-mail.zpidc.com/admin/putMailSender
+name: 保存配置
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"accessToken": "testaccesstoken001",
+    		"status": 1,
+    		"level": 4,
+    		"operatorId":1,
+    		"name":"智联招聘",
+    		"address":"a1.service@mail.zhaopin.com",
+    		"note":"测试用"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689447083550
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

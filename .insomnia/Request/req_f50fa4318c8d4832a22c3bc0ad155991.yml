@@ -1,0 +1,29 @@
+_id: req_f50fa4318c8d4832a22c3bc0ad155991
+type: Request
+parentId: fld_8793726a3ad94ab190bef4c348ecf135
+modified: 1689585182780
+created: 1689573296698
+url: http://p-apply-apply.zpidc.com/admin/sendApplyMessage
+name: 发消息
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "message": {
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689573296698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
