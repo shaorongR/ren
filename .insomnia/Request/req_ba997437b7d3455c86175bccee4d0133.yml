@@ -1,0 +1,29 @@
+_id: req_ba997437b7d3455c86175bccee4d0133
+type: Request
+parentId: fld_e2bd7ecec2c74d08907efbd120ce5c1e
+modified: 1692000554395
+created: 1692000542811
+url: http://b-imsearch-search.zpidc.com/userSessionSearch/listSessionByTargetChannelId
+name: C查询会话列表
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":1013453719,"accountType":"USER","sessionTypes":["P2P","USER_OFFICIAL","CAREER","STAFF_JOB_RECOMMEND"],"targetChannelIds":["1111382747"],"visible":true}'
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: eea8f230-075b-7a8f-5548-8d871b678655
+authentication: {}
+metaSortKey: -1681848174278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_fb84604b92924d4c972b944e5cd22ee3
+type: Request
+parentId: fld_9e8bd9fccec44810b13cff0b1f0deded
+modified: 1691042485364
+created: 1691034326148
+url: http://b-airecruitment-airecruitment.zpidc.com/aiRecommendResumeByStaffMessage/getBusinessData
+name: 简历卡
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":1161010590,"accountType":"STAFF","context":"{\"execute\":true,\"items\":[{\"jobNumber\":\"CCL1289782150J40397204406\",\"language\":1,\"recordId\":802,\"resumeNumber\":\"JH679181375R90500000000\",\"rootOrgId\":128978215,\"sideSourceId\":\"802\",\"sideSourceType\":\"STAFF_LAUNCH_TO_AI_OPERATOR\",\"title\":\"test_1\",\"version\":1}],\"operatorId\":8,\"packageId\":602,\"resumeCount\":1,\"rootSourceId\":\"602\",\"rootSourceType\":\"STAFF_LAUNCH_TO_AI_OPERATOR\",\"sideSourceId\":\"602\",\"sideSourceType\":\"STAFF_LAUNCH_TO_AI_OPERATOR\",\"title\":\"为您推荐了1位「园艺师04」人才\"}","id":771057600316,"sessionId":"68f55cbac4115aa3abc69b824c2da716"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691034326148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

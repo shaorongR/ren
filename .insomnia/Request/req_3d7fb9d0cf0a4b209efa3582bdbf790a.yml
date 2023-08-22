@@ -1,0 +1,30 @@
+_id: req_3d7fb9d0cf0a4b209efa3582bdbf790a
+type: Request
+parentId: fld_29d62a4391d745f5896b9163b6decd36
+modified: 1690854805689
+created: 1690854803366
+url: http://b-airecruitment-airecruitment.zpidc.com/resume/countResume
+name: 推荐简历数
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "rootOrgId": 128978215,
+    	"staffId":1106194486,
+      "recommendResumePackageId":102
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690086480779.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

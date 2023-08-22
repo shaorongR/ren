@@ -1,0 +1,32 @@
+_id: req_5cfdcb67dd9548ed931ca5073495f235
+type: Request
+parentId: fld_29d62a4391d745f5896b9163b6decd36
+modified: 1690858196806
+created: 1690854988050
+url: http://b-airecruitment-airecruitment.zpidc.com/resume/markIgnored
+name: 忽略简历
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "rootOrgId": 128978215,
+    	"staffId":1106194486,
+      "packageAndResumeId":102,
+    	"sideBusinessType": "Z",
+      "sideBusinessSubtype": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689908826514.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

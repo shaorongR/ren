@@ -1,0 +1,33 @@
+_id: req_1baea087da1c4592ac8b4941393c57a0
+type: Request
+parentId: fld_3f6bc3220e724e979268fdc775051053
+modified: 1691034309998
+created: 1691033607528
+url: http://orgaccessapi.zpidc.com/ihraccess/value/insertOrUpdateValue
+name: 白名单
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_85befce3eda5486a9d05a0b5206e8b97
+    name: rootOrgId
+    value: "146877370"
+    description: ""
+  - id: pair_a57a82d2664a4cf1a7d8b53f29e8aaf1
+    name: keyId
+    value: "62"
+    description: ""
+  - id: pair_f4021042c0d04a5c822e58f206fb98fa
+    name: value
+    value: "1"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1691033607528
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

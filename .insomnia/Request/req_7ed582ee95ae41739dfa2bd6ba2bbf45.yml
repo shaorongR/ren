@@ -1,0 +1,42 @@
+_id: req_7ed582ee95ae41739dfa2bd6ba2bbf45
+type: Request
+parentId: fld_3ff7066d6e104f599ccc2a50802553a9
+modified: 1689907247553
+created: 1689585977845
+url: http://p-mail-mail.zpidc.com/mail/mail/send
+name: 发送邮件
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "toRecipients": [
+            {
+                "address": "shaorong.ren@zhaopin.com.cn"
+            }
+        ],
+        "partitionId": 1,
+        "subject": "测试",
+        "clientIp": "10.172.226.154",
+        "from": {
+            "address": "b3.service@zhaopinmail.com",
+            "name": "智联招聘"
+        },
+        "accessToken": "64091c9fa9724dc2ba81b8802752bc71",
+        "contentType": "text/html;charset=UTF-8",
+        "content": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689383976976
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

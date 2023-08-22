@@ -1,0 +1,42 @@
+_id: req_613a003f7a884f9ea80404dfd0cab8a8
+type: Request
+parentId: fld_3937603454ae4e98aed8598483be4b46
+modified: 1692582765384
+created: 1689849608426
+url: http://p-im-im.zpidc.com/group/kickMember
+name: 踢人出群
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id": 577565,
+        "accountId": 1039389932,
+        "accountType": "STAFF",
+        "partitionId": 83078284,
+        "kickedAccountId": 1039091496,
+        "kickedAccountType": "STAFF",
+        "kickedPartitionId": 83078284,
+        "kickedMembers": {
+            "kickedAccountId": 1039091496,
+            "kickedAccountType": "STAFF",
+            "kickedPartitionId": 83078284
+        },
+        "sideBusinessSubtype": "GROUP",
+        "sideBusinessType": "Z",
+        "withTips": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689849608426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

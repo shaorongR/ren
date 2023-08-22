@@ -1,0 +1,61 @@
+_id: req_510be9f69b824f98bb24fbcd1015378f
+type: Request
+parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
+modified: 1691479956978
+created: 1690428345817
+url: http://p-resumeextend-resumeextend.zpidc.com/resumeextend/resumeV2/getAttachResumeUrl
+name: 获取简历url
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"jobNumber":"CC144606440J40465390714","language":1,"resumeNumber":")h(O6ueEL4XxE5itlgbVQ(EL7msvyxsa","rootOrgId":14460644,"staffId":141973630}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-ZP-client-id
+    value: 3cbafe23-c89d-49ed-a320-6d9532bc0121
+  - name: x-zp-root-org-id
+    value: "14460644"
+  - name: X-ZP-rt
+    value: 2b345a95959448a895f38477708a6854
+  - name: X-ZP-page-request-id
+    value: 9a0d771a5bb94668a9b47253fbc9bbb4-1691464766696-516099
+  - name: x-zp-user-id
+    value: "1033914731"
+  - name: X-ZP-page-code
+    value: "4016"
+  - name: X-ZP-device-id
+    value: bf7951bf0e4be6e672f6ba13f3a1470d
+  - name: X-ZP-device-sn
+    value: afd20e64b86c4b2ba32e8dea58c0081f
+  - name: X-ZP-at
+    value: c51933bd06d84402b985a088e2c54d78
+  - name: x-zp-org-id
+    value: "303897809"
+  - name: x-zp-user-login-type
+    value: "1"
+  - name: X-ZP-request-url
+    value: http://rd6.zhaopin.com/api/resume/getAttachResumeUrl?_=1691464777879&x-zp-page-request-id=9a0d771a5bb94668a9b47253fbc9bbb4-1691464766696-516099&x-zp-client-id=3cbafe23-c89d-49ed-a320-6d9532bc0121
+  - name: X-ZP-client-type
+    value: n
+  - name: X-ZP-client-ip
+    value: 1.87.218.109
+  - name: x-zp-staff-id
+    value: "141973630"
+  - name: X-ZP-request-id
+    value: 33279f1886784731ade10e4d2409a4e2
+  - name: X-ZP-business-system
+    value: "83"
+  - name: x-zp-device-finger-id
+    value: F1vof6d7-F8p8-V59Y-4079-1M086Ldpm5wO
+authentication: {}
+metaSortKey: -1675583966322.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

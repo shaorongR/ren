@@ -1,0 +1,42 @@
+_id: req_b49814cfd1434752b183b644be0e0772
+type: Request
+parentId: fld_3f6bc3220e724e979268fdc775051053
+modified: 1691042707352
+created: 1691042594734
+url: http://orgaccessapi.zpidc.com/ihraccess/value/getValueByRootOrgIdAndStaffId
+name: 查询白名单
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId": 134735519,
+    	"staffId":1107390908,
+    	"keyId":62
+    }
+parameters:
+  - id: pair_85befce3eda5486a9d05a0b5206e8b97
+    name: rootOrgId
+    value: "146877370"
+    description: ""
+  - id: pair_a57a82d2664a4cf1a7d8b53f29e8aaf1
+    name: keyId
+    value: "62"
+    description: ""
+  - id: pair_f4021042c0d04a5c822e58f206fb98fa
+    name: value
+    value: "1"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690915352684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

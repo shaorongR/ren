@@ -1,0 +1,35 @@
+_id: req_77c95d7f971b48fcbb141f4ae979afe8
+type: Request
+parentId: fld_29d62a4391d745f5896b9163b6decd36
+modified: 1691565486900
+created: 1691565428159
+url: http://b-airecruitment-airecruitment.zpidc.com/admin/executePulsarConsumer
+name: 反馈消息
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "consumerId": "triggersNegativeBehaviorEventConsumer",
+      "message": {
+    		"rootOrgId": 128978215,
+      	"jobNumber": "CCL1289782150J40397204406",
+    		"staffId":1161010590,
+    		"serviceGuidanceSourceType":"NPS",
+    		"eventTime":0
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690441789309.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

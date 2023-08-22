@@ -1,0 +1,38 @@
+_id: req_e2dcbeded2c24674a0e8e60da0402d99
+type: Request
+parentId: fld_29d62a4391d745f5896b9163b6decd36
+modified: 1692006066706
+created: 1690797097840
+url: http://b-airecruitment-airecruitment.zpidc.com/resume/recommendResume
+name: 推荐简历
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "jobNumber": "CC120019970J40462005503",
+        "resumes": [
+            {
+                "reason": "此候选人有11年的工作经验，且在运维CPS系统，调度批处理作业等方面有丰富的经验，这对于车联网系统开发工程师的岗位非常重要。",
+                "resumeLanguage": 1,
+                "resumeNumber": "JM511612507R90250000000"
+            }
+        ],
+        "rootOrgId": 12001997,
+        "sideBusinessSubtype": "resumerecommend-copilot",
+        "sideBusinessType": "BAPP6"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690797097840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

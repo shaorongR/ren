@@ -1,0 +1,57 @@
+_id: req_5d8fa30d64454caf96279833d2bef73c
+type: Request
+parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
+modified: 1691061455735
+created: 1691061434760
+url: http://b-bapi-bapi.zpidc.com/resumeapi/resumeV2/getResumeDetail
+name: 获取简历详情-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"k":"","resumeLanguage":1,"resumeNumber":"MboX)v91gDDn6gQrm(8KlYd7bOqa2lpw","rootOrgId":128978215,"showUserName":false,"skipRead":false,"sourceId":"1602","sourceType":"AI_RECRUITMENT","staffId":1161010590,"t":""}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-ZP-client-id
+    value: 7a01f413-a81f-44d0-97f9-4fd15cf100e6
+  - name: x-zp-root-org-id
+    value: "128978215"
+  - name: X-ZP-rt
+    value: 2b1790c521124083a3c9369d6d241de8
+  - name: X-ZP-page-request-id
+    value: b694b55d842940e0a6f2eef8d7510a6c-1691057244549-260638
+  - name: x-zp-user-id
+    value: "689168450"
+  - name: $TV
+    value: 5.4.0
+  - name: $SV
+    value: 1.0.0
+  - name: X-ZP-page-code
+    value: "4023"
+  - name: X-ZP-at
+    value: 3b5f59244e7f4532850a24705535fa5b
+  - name: x-zp-org-id
+    value: "317360674"
+  - name: x-zp-user-login-type
+    value: "1"
+  - name: X-ZP-client-type
+    value: n
+  - name: X-ZP-client-ip
+    value: 127.0.0.1
+  - name: x-zp-staff-id
+    value: "1161010590"
+  - name: X-ZP-request-id
+    value: befc4fa76efd4d6794e0dc36cc6ba4fe
+  - name: X-ZP-business-system
+    value: "83"
+authentication: {}
+metaSortKey: -1675659499970.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_eb42500e11854563ac3322ee67979db6
+type: Request
+parentId: fld_ab8c721921434e11ba61bf4429cf3660
+modified: 1692167662227
+created: 1692165743247
+url: http://b-resumenumberencryption-online.zpidc.com/resumeNumberEncryptToOnline/encryptNumber
+name: 加密
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"rawResumeNumber":"JH771709556R90500000000","rootOrgId":133899533,"scene":"WECHAT_RIGHTS"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1692165743247
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

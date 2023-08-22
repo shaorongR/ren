@@ -1,0 +1,30 @@
+_id: req_d3fbcaf0442d4869bbebed82e5d5bde8
+type: Request
+parentId: fld_29d62a4391d745f5896b9163b6decd36
+modified: 1691145492840
+created: 1690854844345
+url: http://b-airecruitment-airecruitment.zpidc.com/resume/getResume
+name: 查询简历
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "rootOrgId": 128978215,
+    	"staffId":1106194486,
+      "packageAndResumeId":7702
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689968044602.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

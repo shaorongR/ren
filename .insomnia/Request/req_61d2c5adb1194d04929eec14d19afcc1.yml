@@ -1,0 +1,58 @@
+_id: req_61d2c5adb1194d04929eec14d19afcc1
+type: Request
+parentId: fld_f48491cfd85a475d871dc5cc29be62cd
+modified: 1692619940859
+created: 1692599608680
+url: http://localhost:8081/message/sendMessage
+name: 发送消息
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "content": "{\"content\":\"test1\",\"emitSceneType\":\"SEND_TEXT_MESSAGE\",\"emotionType\":\"\",\"tags\":[3]}",
+        "context": "",
+        "detailContent": "",
+        "fallbackContent": "",
+        "innerPushContent": "{\"content\":\"test\",\"title\":\"群聊测试1\"}",
+        "listContent": "",
+        "messageId": "7b596ae5867848a48035b215035fa522",
+        "messageType": 1,
+        "meta": "{\"businessSystem\":\"0\",\"messageId\":\"7b596ae5867848a48035b215035fa5d2\",\"realSessionId\":\"0108cbaf811d39548584edfada6497af\",\"sendMessageId\":\"7b596ae5867848a48035b215035fa5d2\",\"senderAccountId\":\"sales_12966451\",\"senderName\":\"销售\",\"senderPhoto\":\"https://storage-public.zhaopin.cn/org/image/1669010517980252781/avatarWoman180.png\",\"sessionId\":74372410802,\"sessionType\":10}",
+        "option": {
+            "countInRead": true,
+            "initiative": true,
+            "innerPush": true,
+            "outerPush": true
+        },
+    	"outerPushContent": "{\"androidJumpUrl\":\"zhaopin://zhaopin.com?path=/MessageModule/native/messageDetailNewPage&openType=0&pageType=0&sessionId=b0f91bb854a33894654ef8d6d0a942b1&$!{srccode}\",\"content\":\"销售:test1\",\"iosJumpUrl\":\"zhaopinenterpriseapp://zhaopin.com/MessageModule/native/messageDetailNewPage?openType=0&pageType=0&sessionId=b0f91bb854a33894654ef8d6d0a942b1&$!{srccode}\",\"senderPhoto\":\"https://storage-public.zhaopin.cn/operation/team/avatar/1684118638352061834/c3a47550f1b3430fa1991c1889f72969.jpg\",\"title\":\"群聊测试1\"}",
+        "outerPushContent": "",
+        "pushContent": "",
+        "receiverDetailContent": "",
+        "receiverFallbackContent": "",
+        "receiverListContent": "",
+        "senderDetailContent": "",
+        "senderFallbackContent": "",
+        "senderId": 60110029,
+        "senderListContent": "",
+        "senderName": "测试退群",
+        "senderType": "STAFF",
+        "sessionId": "0108cbaf811d39548584edfada6497af",
+        "uniqueKey": "7b596ae5867848a48035b215035fa522"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692599608680
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_b6e45015c20e451e88aee528e45ae255
+type: Request
+parentId: fld_b9b4522844ba4e50abec2b0aeff15693
+modified: 1692330135051
+created: 1691658811078
+url: http://localhost:8080/admin/executeJobHandler
+name: executeJobHandler
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_62c1fe3b66cc4bed828f39f4f5cf7131
+    name: type
+    value: "4"
+    description: ""
+  - id: pair_8feaf39599e04d8bbf2585e3388e8868
+    name: limit
+    value: "1"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1691658811078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

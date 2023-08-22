@@ -1,0 +1,35 @@
+_id: req_49b5c61b2c0b45b1b8c1bab8e5055ebf
+type: Request
+parentId: fld_29d62a4391d745f5896b9163b6decd36
+modified: 1691145451279
+created: 1690854621079
+url: http://b-airecruitment-airecruitment.zpidc.com/resume/listResume
+name: 查询简历列表
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "page": {
+            "pageNo": 1,
+            "pageSize": 10
+        },
+        "recommendResumePackageId": 2702,
+        "recordId": 7202,
+        "rootOrgId": 128978215,
+        "staffId": 1161010590
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690323353133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

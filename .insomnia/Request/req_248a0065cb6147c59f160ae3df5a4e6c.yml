@@ -1,0 +1,43 @@
+_id: req_248a0065cb6147c59f160ae3df5a4e6c
+type: Request
+parentId: fld_3f6bc3220e724e979268fdc775051053
+modified: 1692606571390
+created: 1691128234760
+url: http://orgaccessapi.zpidc.com/ihraccess/value/insertOrUpdateValueByStaff
+name: 白名单-staff维度
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":130684169,
+    	"staffId":1109033379,
+    	"keyId":62,
+    	"value":1
+    }
+parameters:
+  - id: pair_85befce3eda5486a9d05a0b5206e8b97
+    name: rootOrgId
+    value: "146877370"
+    description: ""
+  - id: pair_a57a82d2664a4cf1a7d8b53f29e8aaf1
+    name: keyId
+    value: "62"
+    description: ""
+  - id: pair_f4021042c0d04a5c822e58f206fb98fa
+    name: value
+    value: "1"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690856225262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

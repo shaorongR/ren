@@ -1,0 +1,39 @@
+_id: req_42c74ed9e2fc4213a3d904293a0b4f09
+type: Request
+parentId: fld_ee4163837e2d4e1396a53400f6f23690
+modified: 1692091473373
+created: 1692005756422
+url: http://b-caption-resumecaption.zpidc.com/resumecaption/captionService/list
+name: 查询简历
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"context":"{\"workExperienceKgOrgIndustryLabel\":true,\"jobNum\":\"CC120070360J40460286606\",\"sceneType\":\"recom\",\"query\":{\"UserId\":1061304568}}","ids":["JI483887935R90500001000_1","JI835753354R90500000000_1","JI190873616R90500000000_1","JI913310039R90500000000_1","JI154187074R90500000000_1"],"type":"featuredResumeListForRecommendAggregatedCaption"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-ZP-rt
+    value: 1db1b4bc8a9845e1a90e5f76a9952737
+  - name: X-ZP-at
+    value: 07d61793bbf240c1aca1da2046371ae3
+  - name: x-zp-org-id
+    value: "128978215"
+  - name: x-zp-business-system
+    value: "23"
+  - name: X-ZP-page-code
+    value: "4021"
+  - name: X-ZP-client-type
+    value: n
+  - name: X-ZP-client-ip
+    value: 10.2.9.222
+authentication: {}
+metaSortKey: -1692005756422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

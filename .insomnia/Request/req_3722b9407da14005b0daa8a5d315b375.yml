@@ -1,0 +1,31 @@
+_id: req_3722b9407da14005b0daa8a5d315b375
+type: Request
+parentId: fld_be29fbf7a9244b4d8052d7b16bcd6955
+modified: 1692608407475
+created: 1692608206146
+url: http://p-im-im.zpidc.com/official/updateOfficialAccount
+name: 修改小号信息
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"id":10000,
+    	"avatar":"https://common-bucket.zhaopin.cn/components/rd.kamala/2.50.2/portrait-boy.b17a77d.png"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692608206146
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

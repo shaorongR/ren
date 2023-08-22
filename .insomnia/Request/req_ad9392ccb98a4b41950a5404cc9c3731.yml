@@ -1,0 +1,55 @@
+_id: req_ad9392ccb98a4b41950a5404cc9c3731
+type: Request
+parentId: fld_29d62a4391d745f5896b9163b6decd36
+modified: 1691052793644
+created: 1690873966156
+url: http://b-bapi-bapi.zpidc.com/airecruitment/resume/listResume
+name: 查询简历列表-bapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "rootOrgId": 128978215,
+    	"staffId":1161010590,
+      "recommendResumePackageId":802,
+    	"page":{
+    		"pageNo":1,
+    		"pageSize":20
+    	},
+    	"recordId":1302
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-zp-request-id
+    value: ""
+  - name: x-zp-rt
+    value: C_d45c2de10a3f08bd
+  - name: x-zp-at
+    value: 3b5f59244e7f4532850a24705535fa5b
+  - name: x-zp-user-agent
+    value: ""
+  - name: x-zp-client-ip
+    value: 172.1.1.0
+  - name: x-zp-client-type
+    value: y
+  - name: x-zp-page-request-id
+    value: ""
+  - name: x-zp-business-system
+    value: "0"
+  - name: x-zp-device-id
+    value: "111"
+  - name: x-zp-org-id
+    value: "130027196"
+authentication: {}
+metaSortKey: -1690204916956.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
