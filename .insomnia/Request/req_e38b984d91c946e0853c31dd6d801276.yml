@@ -1,26 +1,24 @@
-_id: req_aa7103c51bfe4a5bb45b7de5e0a878fe
+_id: req_e38b984d91c946e0853c31dd6d801276
 type: Request
-parentId: fld_d6555273bd984db792da33340db915c8
-modified: 1692874572922
-created: 1679390621788
-url: http://p-im-im.zpidc.com/message/listMessage
-name: New Request
+parentId: fld_a076ffbced79403087d50638288f91ab
+modified: 1692949278468
+created: 1692949034484
+url: http://b-operation-operation.zpidc.com/admin/updateJob
+name: updateJob
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "from": "1172163669",
-    	"to": "1162723227",
-      "limit": 20
+    	
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1679390621788
+metaSortKey: -1680506916302.0625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

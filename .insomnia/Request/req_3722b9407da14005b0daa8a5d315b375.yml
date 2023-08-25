@@ -1,7 +1,7 @@
 _id: req_3722b9407da14005b0daa8a5d315b375
 type: Request
 parentId: fld_be29fbf7a9244b4d8052d7b16bcd6955
-modified: 1692608407475
+modified: 1692872517163
 created: 1692608206146
 url: http://p-im-im.zpidc.com/official/updateOfficialAccount
 name: 修改小号信息
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"id":10000,
-    	"avatar":"https://common-bucket.zhaopin.cn/components/rd.kamala/2.50.2/portrait-boy.b17a77d.png"
+    	"id":100400,
+    	"avatar":"https://storage-public.zhaopin.cn/im/image/1692692748018314314/img_report.png"
     }
 parameters: []
 headers:

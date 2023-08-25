@@ -1,26 +1,23 @@
-_id: req_aa7103c51bfe4a5bb45b7de5e0a878fe
+_id: req_b716c24fb07c44f28bb632e9add6878d
 type: Request
-parentId: fld_d6555273bd984db792da33340db915c8
-modified: 1692874572922
-created: 1679390621788
-url: http://p-im-im.zpidc.com/message/listMessage
+parentId: fld_811cd58313924b188ae9a3333b551897
+modified: 1692787531612
+created: 1692787479461
+url: http://z-candidate-candidate.zpidc.com/candidate/getCandidateById
 name: New Request
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-      "from": "1172163669",
-    	"to": "1162723227",
-      "limit": 20
-    }
+  text: '{"id":46799531415,"includingSources":false,"rootOrgId":131780730}'
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1679390621788
+metaSortKey: -1692787479461
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

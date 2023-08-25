@@ -1,7 +1,7 @@
 _id: req_720d7d91ce8c476ba266d4d85dbec9cd
 type: Request
 parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
-modified: 1675827869006
+modified: 1692760258733
 created: 1675735033619
 url: http://p-resumeextend-resumeextend.zpidc.com/resumeextend/resumeV2/getResumeDetail
 name: getResumeDetail
@@ -9,13 +9,53 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"showUserName":false,"condition":{"expectedCityIds":[],"keywordSplitType":"NOT","keyword":""},"t":"","sceneValue":"","k":"","resumeNumber":"49UwgW6FmnW6mgov(UM86pr)HUUr1LGw","rootOrgId":137940051,"jobNumber":"CCL1379400510J40354270808","staffId":1148886362,"resumeLanguage":1}'
+  text: '{"condition":{"keywordSplitType":"NOT"},"jobNumber":"CCL1300331580J40449584911","k":"","resumeLanguage":1,"resumeNumber":"Vmx)XBoA(UV0)yMTQIsvzt6GDr1NpyzY","rootOrgId":130033158,"showUserName":false,"staffId":1177196302,"t":""}'
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-  - name: X-ZP-at
-    value: 10b68ef7536944089c642f38ad065c8e
+  - name: x-zp-root-org-id
+    value: "130033158"
+  - name: x-zp-user-id
+    value: "1084928139"
+  - name: x-zp-refer
+    value: "5004015"
+  - name: x-zp-rt
+    value: df5fbf874de54b49b80165077b15cb43
+  - name: $TV
+    value: 5.4.0
+  - name: $SV
+    value: 1.0.0
+  - name: x-zp-channel
+    value: b_wxxiaochengxu
+  - name: x-zp-client-type
+    value: x
+  - name: x-zp-business-system
+    value: "74"
+  - name: x-zp-device-id
+    value: e3a81f71362d435f90b026c81ef4bc6a
+  - name: x-zp-open-id
+    value: on7rq4nQDLw6P-9ZZGdnmMLoxIh8
+  - name: $CP
+    value: java-b-bapi-bapi
+  - name: x-zp-request-id
+    value: ff5585533eb44ffeaa6d6350df2bde03
+  - name: x-zp-utm-source
+    value: wx_form_msg
+  - name: x-zp-org-id
+    value: "319633645"
+  - name: x-zp-utm-content
+    value: "720216"
+  - name: x-zp-at
+    value: c23e56adf2e5489490c1819a8aa91c9c
+  - name: x-zp-user-login-type
+    value: "1"
+  - name: $SG
+    value: plat
+  - name: x-zp-client-ip
+    value: 106.39.18.123
+  - name: x-zp-staff-id
+    value: "1177196302"
 authentication: {}
 metaSortKey: -1675735033619
 isPrivate: false
