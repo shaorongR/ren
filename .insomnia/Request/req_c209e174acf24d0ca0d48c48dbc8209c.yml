@@ -1,0 +1,50 @@
+_id: req_c209e174acf24d0ca0d48c48dbc8209c
+type: Request
+parentId: fld_d67a367000c146238a70c280d4a0359c
+modified: 1693548167260
+created: 1693466308634
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 操作-招呼语
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"CAMPUS_ZHAOZHAO_TALENT",
+
+    "operationType": "SEND_GREETING_FOR_TALENT_V2",
+
+    "context": "{\"messageType\":131,\"tags\":[\"GREETING_TEXT\",\"CREATE\"],\"detectMessage\":true,\"visible\":true,\"targetVisible\":false,\"option\":{\"initiative\":false,\"countInRead\":true,\"outerPush\":true,\"innerPush\":true},\"senderType\":1}",
+
+    "condition":"",
+
+    "priority": 7,
+
+    "state": "VALID",
+
+    "description": "招呼语",
+
+    "env":"pre"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+  - name: x-zp-color
+    value: yellow
+authentication: {}
+metaSortKey: -1693462313673.0469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

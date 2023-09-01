@@ -1,0 +1,32 @@
+_id: req_60fe607d676d4ec9aa1d78efff9760f5
+type: Request
+parentId: fld_4901505645be490d9693f39309163feb
+modified: 1693485426092
+created: 1693484404740
+url: http://localhost:8081/backSource/getSessionForBackSource
+name: getSessionForBackSource
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":"b5fb991e4be8b68074692b760710c92c"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+  - name: x-zp-color
+    value: yellow
+authentication: {}
+metaSortKey: -1693484404740
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

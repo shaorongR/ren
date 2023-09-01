@@ -1,7 +1,7 @@
 _id: req_8b32ae71d717435f8008135241e2390e
 type: Request
 parentId: fld_ab8c721921434e11ba61bf4429cf3660
-modified: 1692798474736
+modified: 1693537262825
 created: 1692166379254
 url: http://b-resumenumberencryption-online.zpidc.com/resumeNumberEncryptToOnline/decryptNumber
 name: 解密
@@ -10,7 +10,7 @@ method: POST
 body:
   mimeType: application/json
   text: '{"encryptedResumeNumber":
-    "KMLSg69XATYNyq6hsZQFWMe4cN8QA6su","rootOrgId":128527463}'
+    "ikGDB7luDlal1CgXBZG9E)MylQKNFEXC","rootOrgId":146038901}'
 parameters: []
 headers:
   - name: Content-Type

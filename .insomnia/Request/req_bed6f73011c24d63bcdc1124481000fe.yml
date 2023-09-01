@@ -1,0 +1,42 @@
+_id: req_bed6f73011c24d63bcdc1124481000fe
+type: Request
+parentId: fld_d67a367000c146238a70c280d4a0359c
+modified: 1693548078371
+created: 1693464275298
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateBusinessScene
+name: 场景
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"CAMPUS_ZHAOZHAO_TALENT",
+
+    "context": "{\"sceneReferType\":\"CAMPUS_ZHAOZHAO_TALENT\",\"sessionExists\":false,\"setContext\":true,\"allowChangeContextJob\":true,\"sourceAccountConfig\":{\"visible\":true,\"mute\":false,\"initiator\":true,\"speaking\":true,\"read\":true,\"visibilityLevel\":\"REQUIRE_FOR_NOTHING\",\"visibleWhenSessionExists\":true},\"targetAccountConfig\":{\"visible\":true,\"mute\":false,\"initiator\":false,\"speaking\":false,\"read\":false,\"visibilityLevel\":\"REQUIRE_FOR_NOTHING\",\"visibleWhenSessionExists\":true}}",
+
+    "state": "VALID",
+
+    "description": "校园招招抢人才",
+
+    "env":"pre"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+authentication: {}
+metaSortKey: -1693464284164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_53ff76987bd5427c8fba2aae42538a2b
+type: Request
+parentId: fld_d67a367000c146238a70c280d4a0359c
+modified: 1693548137080
+created: 1693465730567
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 操作-发送职位讲解视频卡片
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"CAMPUS_ZHAOZHAO_TALENT",
+
+    "operationType": "SEND_JOB_VIDEO_CARD_V2",
+
+    "context": "{\"messageType\":170,\"tags\":[],\"detectMessage\":true,\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false},\"senderType\":1}",
+
+    "condition":"",
+
+    "priority": 4,
+
+    "state": "VALID",
+
+    "description": "发送职位讲解视频卡片",
+
+    "env":"pre"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+  - name: x-zp-color
+    value: yellow
+authentication: {}
+metaSortKey: -1693462532605.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

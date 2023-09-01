@@ -1,0 +1,27 @@
+_id: req_8a4abf2acf764552b4983d2028f2ba39
+type: Request
+parentId: fld_f48491cfd85a475d871dc5cc29be62cd
+modified: 1693486815903
+created: 1693485624987
+url: http://localhost:8081/session/listSessionMember
+name: listSessionMember
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":60168781,"accountType":"STAFF","page":{"pageNo":1,"pageSize":50},"visible":true,"operateSystemType":"SOCIAL_RECRUITMENT"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692382675963.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

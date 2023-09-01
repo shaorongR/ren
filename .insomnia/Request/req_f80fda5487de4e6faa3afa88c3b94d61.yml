@@ -1,0 +1,39 @@
+_id: req_f80fda5487de4e6faa3afa88c3b94d61
+type: Request
+parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
+modified: 1693537986928
+created: 1693536635455
+url: http://p-im-im.zpidc.com/sessionV2/getOrCreateSessionByTalent
+name: 老版抢人才
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "candidateSourceType": "YOULIAO",
+        "encryptedResumeNumber": "8W0uOXyWkgOd7CHIQOTPLwTgKuxQN9D1",
+        "jobNumber": "CCL1389351530J40001741601",
+        "orgId": 138935153,
+        "resumeLanguage": 1,
+        "rootOrgId": 138935153,
+        "scene": "CREATE_SWITCH_JOB_BY_CANDIDATE",
+        "sideBusinessSubtype": "C_CREATE_SESSION",
+        "sideBusinessType": "C",
+        "staffId": 60168781
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1693536635455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

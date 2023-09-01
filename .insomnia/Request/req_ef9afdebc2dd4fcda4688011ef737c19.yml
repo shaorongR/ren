@@ -1,0 +1,56 @@
+_id: req_ef9afdebc2dd4fcda4688011ef737c19
+type: Request
+parentId: fld_2b41c066d5ae444298c6dce3b41a7206
+modified: 1693539785434
+created: 1693539045173
+url: http://p-im-im.zpidc.com/context/createAndUpdateUserContext
+name: C投递
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "candidateApplyPrice": {
+            "paid": false,
+            "postPay": false
+        },
+        "channel": 0,
+        "createOnly": false,
+        "jobNumber": "CCL1389351530J40001741601",
+        "language": 1,
+        "message": {
+            "applyTalk": {
+                "attachmentTitle": "",
+                "hasAttachment": true,
+                "prologue": "您好，我对贵司【财务经理】很感兴趣，请您看下我的简历，如果合适可以随时联系我，谢谢。",
+                "proxyUserDelivery": false,
+                "resumeType": "ONLINE",
+                "staffCanAccessAttachment": true
+            }
+        },
+        "prologue": "您好，我对贵司【财务经理】很感兴趣，请您看下我的简历，如果合适可以随时联系我，谢谢。",
+        "referType": 15,
+        "resumeNumber": "JS601630975R90500000000",
+        "sideBusinessSubtype": "C_CREATE_SESSION",
+        "sideBusinessType": "C",
+        "staffId": 60168781,
+        "terminalType": 2,
+        "userId": 60163097,
+        "version": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1693539785259
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

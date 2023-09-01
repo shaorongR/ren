@@ -1,0 +1,50 @@
+_id: req_1e64cf502e1447aaa68c3f53a7951b53
+type: Request
+parentId: fld_d67a367000c146238a70c280d4a0359c
+modified: 1693548182893
+created: 1693466423672
+url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
+name: 操作-给C发境外职位提醒卡片操作
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "scene":"CAMPUS_ZHAOZHAO_TALENT",
+
+    "operationType": "USER_ABROAD_JOB_CARD_V2",
+
+    "context": "{\"messageType\":229,\"tags\":[],\"detectMessage\":false,\"senderType\":\"STAFF\",\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+
+    "condition":"",
+
+    "priority": 10,
+
+    "state": "VALID",
+
+    "description": "给C发境外职位提醒卡片操作",
+
+    "env":"pre"
+
+    }
+parameters: []
+headers:
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: postman-token
+    value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
+  - name: x-zp-color
+    value: yellow
+authentication: {}
+metaSortKey: -1693462286306.5059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
