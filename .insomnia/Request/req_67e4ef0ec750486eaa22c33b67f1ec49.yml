@@ -1,0 +1,27 @@
+_id: req_67e4ef0ec750486eaa22c33b67f1ec49
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1693898004953
+created: 1693896277349
+url: http://p-im-im.zpidc.com/sessionV3/setInappropriate
+name: 设置不合适
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"accountId":1071248428,"accountType":"USER","newVersion":true,"partitionId":1071248428,"reason":["OTHER_INAPPROPRIATE"],"scene":"QUICK_REPLY","sessionId":"f2c5bf37484316f426a2e5530c88c6fa"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693898004680
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

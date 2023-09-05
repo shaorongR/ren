@@ -1,17 +1,19 @@
-_id: req_60fe607d676d4ec9aa1d78efff9760f5
+_id: req_5e5d1e7626a944af9b09be7f3b2e2ef2
 type: Request
 parentId: fld_4901505645be490d9693f39309163feb
-modified: 1693812988373
-created: 1693484404740
-url: http://z-im-im.zpidc.com/backSource/getSessionForBackSource
-name: getSessionForBackSource
+modified: 1693556112846
+created: 1693556094639
+url: http://z-im-im.zpidc.com/backSource/getSessionMemberNewForBackSource
+name: getSessionMemberNewForBackSource
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id":"31cce62fc0664e7bb7d08e92bc884685"
+    	"id":"102ea0eb4d7c2994109bf458637b2958",
+    	"accountType":"STAFF",
+    	"accountId":1178251787
     }
 parameters: []
 headers:
@@ -22,7 +24,7 @@ headers:
   - name: x-zp-color
     value: yellow
 authentication: {}
-metaSortKey: -1693484404740
+metaSortKey: -1693469314308
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_1be84d812df047068c106c6673ec8626
 type: Request
 parentId: fld_ebad9551c15d4031827d20d42c21f757
-modified: 1693550369350
+modified: 1693564530829
 created: 1680489680940
 url: http://p-im-im.zpidc.com/batchOperation/batchOperation
 name: 创建B2B会话
@@ -25,7 +25,7 @@ body:
     	"sideBusinessSubtype": "test",
     	"sideBusinessType": "Z",
     	"sideSourceType": "test",
-    	"targetId":1132931088,
+    	"targetId":1093233029,
     	"targetType":"STAFF"
     }
 parameters: []

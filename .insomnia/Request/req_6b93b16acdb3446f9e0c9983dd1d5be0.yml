@@ -1,10 +1,10 @@
 _id: req_6b93b16acdb3446f9e0c9983dd1d5be0
 type: Request
 parentId: fld_4df5bff41077403eba350ac06f69722f
-modified: 1675932540337
+modified: 1693556749146
 created: 1675932325421
 url: http://b-caption-resumecaption.zpidc.com/resumecaption/captionService/get
-name: New Request
+name: resumecaption
 description: ""
 method: POST
 body:

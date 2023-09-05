@@ -1,7 +1,7 @@
 _id: req_5615af1933194a25b00eb512c6b36465
 type: Request
 parentId: fld_3c5ccd0a66d647a28aec037fee7691ca
-modified: 1682592844353
+modified: 1693558959982
 created: 1681805279555
 url: http://p-im-im.zpidc.com/context/createAndUpdateUserContext
 name: 创建批投会话
@@ -13,7 +13,7 @@ body:
     {
     	"channel": 0,
     	"createOnly": false,
-    	"jobNumber": "CCL1289782150J40397204406",
+    	"jobNumber": "CCL1289782150J40456176406",
     	"language": 1,
     	"message": {
     		"applyTalk": {

@@ -1,23 +1,23 @@
-_id: req_8a4abf2acf764552b4983d2028f2ba39
+_id: req_6139bd0e287845d595cf221e2c12872a
 type: Request
 parentId: fld_f48491cfd85a475d871dc5cc29be62cd
-modified: 1693818136369
-created: 1693485624987
-url: http://z-im-im.zpidc.com/session/listSessionMember
-name: listSessionMember
+modified: 1693818112380
+created: 1693818060494
+url: http://z-im-im.zpidc.com/unread/getUnread
+name: 未读数
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"accountId":1119224598,"accountType":"STAFF","operateSystemType":"CAMPUS_ZHAOZHAO","orderType":"TOPPED_AND_SORT_TIME","page":{"pageNo":1,"pageSize":20},"visible":true}'
+  text: '{"accountId":1119224598,"accountType":"STAFF"}'
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
   - name: User-Agent
-    value: Insomnia/2023.5.5
+    value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1692382675963.5
+metaSortKey: -1693818060494
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

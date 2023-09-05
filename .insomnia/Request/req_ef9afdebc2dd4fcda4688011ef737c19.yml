@@ -1,7 +1,7 @@
 _id: req_ef9afdebc2dd4fcda4688011ef737c19
 type: Request
 parentId: fld_2b41c066d5ae444298c6dce3b41a7206
-modified: 1693539785434
+modified: 1693561211422
 created: 1693539045173
 url: http://p-im-im.zpidc.com/context/createAndUpdateUserContext
 name: C投递
@@ -17,7 +17,7 @@ body:
         },
         "channel": 0,
         "createOnly": false,
-        "jobNumber": "CCL1389351530J40001741601",
+        "jobNumber": "CCL1289782150J40456176406",
         "language": 1,
         "message": {
             "applyTalk": {
@@ -31,12 +31,12 @@ body:
         },
         "prologue": "您好，我对贵司【财务经理】很感兴趣，请您看下我的简历，如果合适可以随时联系我，谢谢。",
         "referType": 15,
-        "resumeNumber": "JS601630975R90500000000",
+        "resumeNumber": "JH739832306R90500000000",
         "sideBusinessSubtype": "C_CREATE_SESSION",
         "sideBusinessType": "C",
-        "staffId": 60168781,
+        "staffId": 1161010590,
         "terminalType": 2,
-        "userId": 60163097,
+        "userId": 1173983230,
         "version": 1
     }
 parameters: []
