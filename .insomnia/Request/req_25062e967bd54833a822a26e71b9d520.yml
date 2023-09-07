@@ -1,0 +1,27 @@
+_id: req_25062e967bd54833a822a26e71b9d520
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1694053624895
+created: 1694053430501
+url: http://p-im-im.zpidc.com/sessionV3/getSessionById
+name: getSessionById
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {"accountId":1103747121,"accountType":"STAFF","includeResumeDetail":false,"markRead":true,"partitionId":133724808,"sessionId":"62890f97bd1e43a874354627db6e3380",
+    	"operateSystemType":"CAMPUS_ZHAOZHAO"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661244900679.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

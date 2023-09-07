@@ -1,7 +1,7 @@
 _id: req_8a4abf2acf764552b4983d2028f2ba39
 type: Request
 parentId: fld_f48491cfd85a475d871dc5cc29be62cd
-modified: 1693818136369
+modified: 1693993269388
 created: 1693485624987
 url: http://z-im-im.zpidc.com/session/listSessionMember
 name: listSessionMember
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"accountId":1119224598,"accountType":"STAFF","operateSystemType":"CAMPUS_ZHAOZHAO","orderType":"TOPPED_AND_SORT_TIME","page":{"pageNo":1,"pageSize":20},"visible":true}'
+  text: '{"accountId":1124880253,"accountType":"STAFF","operateSystemType":"CAMPUS_ZHAOZHAO","orderType":"TOPPED_AND_SORT_TIME","page":{"pageNo":1,"pageSize":20},"visible":true,"excludeReferTypes":["CAMPUS_ZHAOZHAO_TALENT"]}'
 parameters: []
 headers:
   - name: Content-Type
