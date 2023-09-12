@@ -1,0 +1,27 @@
+_id: req_d639a875722c41309865dd40e2f961ab
+type: Request
+parentId: fld_7794ffb8b4e1439c8e1bf1c71d9ac65f
+modified: 1694483505848
+created: 1694435618432
+url: http://b-airecruitment-airecruitment.zpidc.com/resume/recommendResume
+name: 推送简历卡
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"jobNumber":"CCL1465698610J40466345402","resumes":[{"reason":"这位人才的工作经历很符合您的招聘需求，快联系他看看吧","resumeLanguage":1,"resumeNumber":"JM569148551R90250012000_1"},{"reason":"这位人才的工作经历很符合您的招聘需求，快联系他看看吧","resumeLanguage":1,"resumeNumber":"JM987691688R90250000000_1"},{"reason":"这位人才的工作经历很符合您的招聘需求，快联系他看看吧","resumeLanguage":1,"resumeNumber":"JM639717380R90250000000_1"},{"reason":"这位人才的工作经历很符合您的招聘需求，快联系他看看吧","resumeLanguage":1,"resumeNumber":"JI544234009R90500000000_1"},{"reason":"这位人才的工作经历很符合您的招聘需求，快联系他看看吧","resumeLanguage":1,"resumeNumber":"JM519401059R90250004000_1"}],"rootOrgId":146569861,"sideBusinessSubtype":"resumerecommend-copilot","sideBusinessType":"BAPP6"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694435618432
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_510be9f69b824f98bb24fbcd1015378f
 type: Request
 parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
-modified: 1691479956978
+modified: 1694413304350
 created: 1690428345817
 url: http://p-resumeextend-resumeextend.zpidc.com/resumeextend/resumeV2/getAttachResumeUrl
 name: 获取简历url
@@ -9,47 +9,68 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"jobNumber":"CC144606440J40465390714","language":1,"resumeNumber":")h(O6ueEL4XxE5itlgbVQ(EL7msvyxsa","rootOrgId":14460644,"staffId":141973630}'
+  text: '{"attachmentId":"1694412523060414150","jobNumber":"CCL1283534540J40477535614","language":1,"resumeNumber":"AcYcg4S32(kuJaw9VwkOlOz2OJpIaZps","rootOrgId":128353454,"scene":"B_APP","staffId":1166445816}'
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-  - name: X-ZP-client-id
-    value: 3cbafe23-c89d-49ed-a320-6d9532bc0121
-  - name: x-zp-root-org-id
-    value: "14460644"
-  - name: X-ZP-rt
-    value: 2b345a95959448a895f38477708a6854
-  - name: X-ZP-page-request-id
-    value: 9a0d771a5bb94668a9b47253fbc9bbb4-1691464766696-516099
+  - name: x-zp-utm-client-version
+    value: u
   - name: x-zp-user-id
-    value: "1033914731"
-  - name: X-ZP-page-code
-    value: "4016"
-  - name: X-ZP-device-id
-    value: bf7951bf0e4be6e672f6ba13f3a1470d
-  - name: X-ZP-device-sn
-    value: afd20e64b86c4b2ba32e8dea58c0081f
-  - name: X-ZP-at
-    value: c51933bd06d84402b985a088e2c54d78
+    value: "1166445743"
+  - name: x-zp-rt
+    value: c53b89ccaa21411aa9982a3d6e3f968d
+  - name: x-zp-version
+    value: 8.10.14
+  - name: $SV
+    value: 1.0.0
+  - name: x-zp-client-type
+    value: i
+  - name: x-zp-device-id
+    value: 6D682BF9-22F2-4E09-AB9E-9D6EA00633A0
+  - name: x-zp-user-role
+    value: ENTERPRISE
+  - name: $CP
+    value: java-b-bapi-bapi
+  - name: x-zp-request-id
+    value: 6e9e260a97cd46598de6b8078c38f660
   - name: x-zp-org-id
-    value: "303897809"
+    value: "318017118"
+  - name: x-zp-user-agent
+    value: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X)
+      AppleWebKit/605.1.15 (KHTML
+  - name: like Gecko) Mobile/15E148 ZhaopinApp/8.10.14
+    value: ""
+  - name: x-zp-client-ip
+    value: 182.50.118.228
+  - name: x-zp-idfamd5
+    value: 3c18189667ee7f4cad650783c80a950f
+  - name: x-zp-platform
+    value: "5"
+  - name: x-zp-staff-id
+    value: "1166445816"
+  - name: x-zp-departmentid
+    value: "318017118"
+  - name: x-zp-root-org-id
+    value: "128353454"
+  - name: $TV
+    value: 5.4.0
+  - name: x-zp-channel
+    value: AppStore
+  - name: x-zp-t
+    value: "1694412810"
+  - name: x-zp-check-staff-enabled
+    value: "true"
+  - name: x-zp-business-system
+    value: "24"
+  - name: x-zp-at
+    value: b9033187cc7542d3b3311fbc63b2e921
+  - name: x-zp-rf
+    value: t
   - name: x-zp-user-login-type
     value: "1"
-  - name: X-ZP-request-url
-    value: http://rd6.zhaopin.com/api/resume/getAttachResumeUrl?_=1691464777879&x-zp-page-request-id=9a0d771a5bb94668a9b47253fbc9bbb4-1691464766696-516099&x-zp-client-id=3cbafe23-c89d-49ed-a320-6d9532bc0121
-  - name: X-ZP-client-type
-    value: n
-  - name: X-ZP-client-ip
-    value: 1.87.218.109
-  - name: x-zp-staff-id
-    value: "141973630"
-  - name: X-ZP-request-id
-    value: 33279f1886784731ade10e4d2409a4e2
-  - name: X-ZP-business-system
-    value: "83"
-  - name: x-zp-device-finger-id
-    value: F1vof6d7-F8p8-V59Y-4079-1M086Ldpm5wO
+  - name: $SG
+    value: plat
 authentication: {}
 metaSortKey: -1675583966322.25
 isPrivate: false

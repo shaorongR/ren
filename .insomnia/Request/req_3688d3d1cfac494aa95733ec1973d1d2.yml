@@ -1,0 +1,34 @@
+_id: req_3688d3d1cfac494aa95733ec1973d1d2
+type: Request
+parentId: fld_7794ffb8b4e1439c8e1bf1c71d9ac65f
+modified: 1694483990563
+created: 1694483601854
+url: http://b-airecruitment-airecruitment.zpidc.com/admin/sendResumeHandleStatisticsPulsar
+name: 发送正负向反馈
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "feedBack": "NEGATIVE",
+        "jobNumber": "CCL1289782150J40456176406",
+        "rootOrgId": 128978215,
+        "sessionId": "540780a9009c7c370ae9772a794300ae",
+        "staffId": 1161010590
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694166811606
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

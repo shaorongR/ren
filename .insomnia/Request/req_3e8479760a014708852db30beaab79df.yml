@@ -1,0 +1,31 @@
+_id: req_3e8479760a014708852db30beaab79df
+type: Request
+parentId: fld_142bda5eef78448db96a0e6ad78406a0
+modified: 1694500088414
+created: 1694499594897
+url: http://b-touch-touch.zpidc.com/test/sendMessage
+name: 测试触发
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_0425b0ebd1d94d74bbf78ebea2e0c64a
+    name: unread
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_0fc813f368dd440fb9392554220f5ca3
+    name: name
+    value: ""
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1671911638821.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

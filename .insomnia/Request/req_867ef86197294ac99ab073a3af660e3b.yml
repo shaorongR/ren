@@ -1,9 +1,9 @@
 _id: req_867ef86197294ac99ab073a3af660e3b
 type: Request
 parentId: fld_1c18bfaf56994828a2d130a59af0df62
-modified: 1694054815496
+modified: 1694142391579
 created: 1692167869140
-url: http://p-im-im.zpidc.com/admin/deleteSessionForTest
+url: http://localhost:8080/test/test
 name: test
 description: ""
 method: POST
