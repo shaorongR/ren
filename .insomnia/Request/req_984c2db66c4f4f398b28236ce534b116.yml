@@ -1,24 +1,15 @@
 _id: req_984c2db66c4f4f398b28236ce534b116
 type: Request
 parentId: fld_1ff43c956f884c90bba5b35401baab16
-modified: 1694051929535
+modified: 1695038775578
 created: 1679379397247
-url: http://p-im-im.zpidc.com/sessionV3/getSessionByAccount
-name: getSessionByAccount
+url: http://p-im-im.zpidc.com/sessionV3/getStaffSessionByAccount
+name: getStaffSessionByAccount
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"accountId":60168781,
-    	"partitionId":138935153,
-    	"accountType":"STAFF",
-    	"targetId":60173957,
-    	"targetType":"USER",
-    	"withUnread":true,
-    	"operateSystemType":"CAMPUS_ZHAOZHAO"
-    }
+  text: '{"accountId":1124880253,"accountType":"STAFF","partitionId":139011036,"targetId":1174893749,"targetType":"USER"}'
 parameters: []
 headers:
   - name: Content-Type

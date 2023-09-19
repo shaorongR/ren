@@ -1,17 +1,22 @@
-_id: req_28fcea5469464e68b93672b466cab810
+_id: req_dd11449919e4467b9028dd6321743c33
 type: Request
 parentId: fld_1ff43c956f884c90bba5b35401baab16
-modified: 1695037633245
-created: 1694051895055
-url: http://p-im-im.zpidc.com/sessionV3/getSessionByTargetChannelId
-name: getSessionByTargetChannelId
+modified: 1695038762053
+created: 1695037495497
+url: http://p-im-im.zpidc.com/sessionV3/getSessionByAccount
+name: getSessionByAccount
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"accountId":1103747121,"accountType":"STAFF","includeResumeDetail":false,"invokerType":"APP","markRead":false,"partitionId":133724808,"targetChannelId":"1176741863","targetChannelType":"P2P",
+    	"accountId":1124880253,
+    	"partitionId":139011036,
+    	"accountType":"STAFF",
+    	"targetId":1174893749,
+    	"targetType":"USER",
+    	"withUnread":true,
     	"operateSystemType":"CAMPUS_ZHAOZHAO"
     }
 parameters: []
@@ -19,7 +24,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1661244900729.625
+metaSortKey: -1661244900754.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
