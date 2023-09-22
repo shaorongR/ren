@@ -1,28 +1,30 @@
-_id: req_56dbf8b5d5ed4de49b96c6c0b8ffdd35
+_id: req_a4e788d633704f079ba9a1e7fca75331
 type: Request
 parentId: fld_f48491cfd85a475d871dc5cc29be62cd
-modified: 1695201877870
-created: 1678072527014
-url: http://z-im-im.zpidc.com/message/listMessageByAccount
-name: listMessageByAccount
+modified: 1695276918252
+created: 1695275667193
+url: http://localhost:8081/session/listSessionId
+name: listSessionId
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"accountId":682156660,
-    	"accountType":"USER",
-    	"targetType":"STAFF",
-    	"targetId":1010860161,
-    	"endTime":9679390382000
+    	"accountId":60103836,
+     "accountType":"STAFF",
+     "visible":false,
+     "beginTime":1599390382000,
+     "endTime":1629390382000
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
 authentication: {}
-metaSortKey: -1678072527014
+metaSortKey: -1692274209605.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

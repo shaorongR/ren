@@ -1,0 +1,33 @@
+_id: req_469dbdf07b3a4646b5540244b02ae9ae
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1695138233930
+created: 1695137914157
+url: http://p-im-im.zpidc.com/group/dismissGroup
+name: deleteGroupSessionByBusinessKey
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":234123,
+    	"accountType":"STAFF",
+    	"accountId":1115163991,
+    	"sideBusinessType":"Z",
+    	"sideBusinessSubtype":"pre",
+    	"partitionId":136968490
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661244900767.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
