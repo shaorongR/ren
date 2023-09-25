@@ -1,22 +1,15 @@
 _id: req_a4e788d633704f079ba9a1e7fca75331
 type: Request
 parentId: fld_f48491cfd85a475d871dc5cc29be62cd
-modified: 1695276918252
+modified: 1695609510724
 created: 1695275667193
-url: http://localhost:8081/session/listSessionId
+url: http://z-im-im.zpidc.com/session/listSessionId
 name: listSessionId
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"accountId":60103836,
-     "accountType":"STAFF",
-     "visible":false,
-     "beginTime":1599390382000,
-     "endTime":1629390382000
-    }
+  text: '{"accountId":1034575103,"accountType":"STAFF","beginTime":169537228266,"endTime":1695372292662}'
 parameters: []
 headers:
   - name: Content-Type
