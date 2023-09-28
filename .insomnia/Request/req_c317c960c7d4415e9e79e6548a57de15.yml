@@ -1,0 +1,31 @@
+_id: req_c317c960c7d4415e9e79e6548a57de15
+type: Request
+parentId: fld_5114d2b62a72478088c48c5a4f5581e5
+modified: 1695721103587
+created: 1695720954113
+url: http://localhost:8080/cardV2/sendCardBusiness
+name: sendCardBusiness
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "accountId": 60168221,
+        "accountType": "STAFF",
+        "cardBusinessType": "STAFF_NEW_GREETING_RESEND_MESSAGE",
+        "partitionId": 128978215
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678631386735.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
