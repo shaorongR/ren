@@ -1,18 +1,19 @@
-_id: req_c92fc546c12d4e5c8bdf0de10dd2f6cc
+_id: req_d064ba2540524ef7a2e094e3c5741de8
 type: Request
 parentId: fld_d454266d8d9f49a993e5d231f5e57159
-modified: 1697707867110
-created: 1684206621869
-url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
-name: 抢人才
+modified: 1697610980420
+created: 1697014128895
+url: localhost:8080/operationAdmin/saveOrUpdateSceneOperation
+name: C单向
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    "scene": "TALENT_SEARCH",
-    "operationType": "BLUE_COLLAR_GUIDE_STAFF_TO_CALL_CARD",
+    "scene": "APPLY_TALK_V2",
+    "operationType": "STAFF_DECLARE_POSITION_TIPS",
+    "priority": 9,
     "state": "INVALID",
     "env": "pre"
     }
@@ -25,7 +26,7 @@ headers:
   - name: postman-token
     value: 2a0f3141-536f-d9bf-00f4-754aaa74b2b8
 authentication: {}
-metaSortKey: -1678078986018.2266
+metaSortKey: -1678077371267.17
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

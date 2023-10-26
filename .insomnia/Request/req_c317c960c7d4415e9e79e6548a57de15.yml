@@ -1,9 +1,9 @@
 _id: req_c317c960c7d4415e9e79e6548a57de15
 type: Request
 parentId: fld_5114d2b62a72478088c48c5a4f5581e5
-modified: 1695721103587
+modified: 1696837490987
 created: 1695720954113
-url: http://localhost:8080/cardV2/sendCardBusiness
+url: http://p-im-im.zpidc.com/cardV2/sendCardBusiness
 name: sendCardBusiness
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-        "accountId": 60168221,
+        "accountId": 1161010590,
         "accountType": "STAFF",
         "cardBusinessType": "STAFF_NEW_GREETING_RESEND_MESSAGE",
         "partitionId": 128978215

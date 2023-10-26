@@ -1,0 +1,27 @@
+_id: req_5ad94170ddd64aa7a3d38aa03c6e9716
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1698322841281
+created: 1698313646030
+url: http://p-im-im.zpidc.com/sessionV3/getOrCreateTalentInvitationSession
+name: getOrCreateTalentInvitationSession
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {"staffId":1166587208,"userId":1154102234,"jobNumber":"CCL1300216890J40443070308","resumeNumber":"JH541022348R90500000000","rootOrgId":130021689,"resumeLanguage":1,"resumeVersion":1,"sideSourceType":"TALENT_INVITATION","sourceId":"test","sideBusinessType":"Z",
+    	"sideBusinessSubtype":"TALENT_INVITATION"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661244900629.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,9 +1,9 @@
 _id: req_f9b4d8f86c2245a39bcff6f87e118311
 type: Request
 parentId: fld_ebad9551c15d4031827d20d42c21f757
-modified: 1693538351435
+modified: 1697021639113
 created: 1693479051637
-url: http://p-im-im.zpidc.com/sessionV3/getOrCreateCampusTalentSession
+url: localhost:8080/sessionV3/getOrCreateCampusTalentSession
 name: 创建校园招招会话-qa
 description: ""
 method: POST

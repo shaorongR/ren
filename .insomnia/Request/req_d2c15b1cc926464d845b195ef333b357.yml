@@ -1,9 +1,9 @@
 _id: req_d2c15b1cc926464d845b195ef333b357
 type: Request
 parentId: fld_2b41c066d5ae444298c6dce3b41a7206
-modified: 1693550380149
+modified: 1697021686209
 created: 1682321565023
-url: http://p-im-im.zpidc.com/talentExecute/execute
+url: localhost:8080/talentExecute/execute
 name: 执行抢人才场景-测试
 description: ""
 method: POST

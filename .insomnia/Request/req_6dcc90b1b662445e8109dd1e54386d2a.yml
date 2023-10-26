@@ -1,7 +1,7 @@
 _id: req_6dcc90b1b662445e8109dd1e54386d2a
 type: Request
 parentId: fld_d454266d8d9f49a993e5d231f5e57159
-modified: 1684141055807
+modified: 1698312371299
 created: 1684141048607
 url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
 name: C单向：网约车
@@ -12,19 +12,19 @@ body:
   text: >-
     {
 
-    "scene": "USER_UNIDIRECTION_RECOMMEND",
+    "scene": "TALENT",
 
-    "operationType": "ONLINE_TAXI_FEE_REMINDER",
+    "operationType": "TALENT_INVIVATION_SETTING_CARD",
 
-    "context": "{\"messageType\":228,\"tags\":[],\"detectMessage\":true,\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+    "context": "{\"messageType\":255,\"tags\":[],\"detectMessage\":false,\"senderType\":\"USER\",\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
 
     "condition": "#root.operationMeta != null",
 
-    "priority": 11,
+    "priority": 18,
 
-    "state": "INVALID",
+    "state": "VALID",
 
-    "description": "给C发送收费信息引导卡片",
+    "description": "给B发人才邀约设置卡片",
 
     "env": "pre"
 

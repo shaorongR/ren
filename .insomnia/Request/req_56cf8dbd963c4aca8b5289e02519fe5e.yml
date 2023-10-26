@@ -1,0 +1,27 @@
+_id: req_56cf8dbd963c4aca8b5289e02519fe5e
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1697800064695
+created: 1697799586492
+url: http://p-im-im.zpidc.com/cardV2/acceptForContact
+name: acceptForContact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"acceptContactType":"SEND_MOBILE","acceptForAskAttachment":false,"accountId":1181672708,"accountType":"USER","applyResumeType":"ONLINE_ONLY","attachmentGray":true,"partitionId":1181672708,"resumeLanguage":"CH","resumeNumber":"JH816727084R90500000000","resumeVersion":1,"scene":"USER_HALF_SESSION_RECEIVE","sessionId":"b96c579def6cb7170734722b8f9411a6"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697799586492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

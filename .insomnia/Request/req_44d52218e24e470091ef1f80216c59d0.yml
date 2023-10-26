@@ -1,0 +1,43 @@
+_id: req_44d52218e24e470091ef1f80216c59d0
+type: Request
+parentId: fld_d57a9e50123f429aaf31606f6f10c5f9
+modified: 1698289358016
+created: 1698289157574
+url: http://b-bapi-bapi.zpidc.com/resumeapi/shareV3/listPackageResume
+name: listPackageResume
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"rootOrgId":84222867,"staffId":1079375756,"token":"9f5a7149efc74245b80aac7067b53736","states":[]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: x-zp-request-id
+    value: bf01a97ae9ab45909bb5b9c0e057c9a0
+  - name: x-zp-refer
+    value: "5004015"
+  - name: x-zp-client-ip
+    value: 2409:8929:e10:c01:55a6:a985:cd1d:4477
+  - name: x-zp-channel
+    value: b_wxxiaochengxu
+  - name: x-zp-client-type
+    value: x
+  - name: x-zp-business-system
+    value: "74"
+  - name: x-zp-device-id
+    value: e3a81f71362d435f90b026c81ef4bc6a
+  - name: x-zp-open-id
+    value: on7rq4sHkVb6-p6g58qvbOFUN5JY
+authentication: {}
+metaSortKey: -1698289157574
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
