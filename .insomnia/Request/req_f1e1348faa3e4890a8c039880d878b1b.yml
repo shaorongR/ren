@@ -1,7 +1,7 @@
 _id: req_f1e1348faa3e4890a8c039880d878b1b
 type: Request
 parentId: fld_142bda5eef78448db96a0e6ad78406a0
-modified: 1673316070065
+modified: 1698829307346
 created: 1672740839954
 url: http://b-imsearch-search.zpidc.com/session/listStaffSessionV2
 name: listStaffSessionV2
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"withUnread":true,"visible":true,"sourceAccountType":"STAFF","targetAccountTypes":["USER","TEAM","OPERATOR"],"page":{"pageNo":1,"pageSize":1},"rootOrgId":59706822,"staffId":202869855}'
+  text: '{"businessSystem":83,"orderType":"TOPPED_AND_SORT_TIME","page":{"pageNo":1,"pageSize":10},"rootOrgId":130021689,"staffId":1166587208,"visible":true,"singleVisionDirectRecommend":true}'
 parameters: []
 headers:
   - name: Content-Type

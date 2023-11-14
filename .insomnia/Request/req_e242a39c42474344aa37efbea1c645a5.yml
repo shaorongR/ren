@@ -1,7 +1,7 @@
 _id: req_e242a39c42474344aa37efbea1c645a5
 type: Request
 parentId: fld_092559d5304f46299dc2e91cc8d733e6
-modified: 1673442795284
+modified: 1698925880948
 created: 1673339623991
 url: http://b-staffunidirection-staffunidirection.zpidc.com/recommendResume/recommendResume
 name: recommendResume
@@ -9,23 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
-    {
-        "sideSourceId": "00404859a628f5a9b95cd000a7a1475816e",
-        "recommendedReason": "吹响“自信”的号角，打起“乐观”的旗号，郎先生符合您的岗位，聊一聊更了解TA！",
-        "language": 1,
-        "sideBusinessSubtype": "OPERATION",
-        "sideBusinessType": "OPERATION",
-        "resumeNumber": "JH416646013R90500000000",
-    	    "rootOrgId": 141359879,
-        "sideSourceType": "STAFF_UNIDIRECTION_INITIATOR",
-        "userId": 1141664601,
-        "jobNumber": "CCL1413598790J40426596214",
-        "staffId": 1135055949,
-    	"method":"config-operation-resumerecommend_resume_campus_talents-default-Big_KB_FB_Multi_chnl_Recall_Exp_v1.0.7",
-    	"methodGroup":"config-operation-resumerecommend_resume_campus_talents-default",
-    	"queryId":"0bcf19abca2f469aac2b4027801ea5da"
-    }
+  text: '{"sideSourceId":31414,"recommendedReason":"默认理由，你好","language":1,"sideBusinessType":2,"sideBusinessSubtype":"brecommendResume","resumeNumber":"JH738700128R90500000000","rootOrgId":"84027024","userId":"1173870012","sideSourceType":6,"staffId":"1111385153","jobNumber":"CC840270240J40399240414"}'
 parameters: []
 headers:
   - name: Content-Type

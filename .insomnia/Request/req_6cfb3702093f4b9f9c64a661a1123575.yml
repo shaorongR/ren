@@ -1,7 +1,7 @@
 _id: req_6cfb3702093f4b9f9c64a661a1123575
 type: Request
 parentId: fld_5114d2b62a72478088c48c5a4f5581e5
-modified: 1683872675212
+modified: 1699269962549
 created: 1678671854660
 url: http://p-im-im.zpidc.com/cardV2/sendCard
 name: sendCard
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-        "accountId": 1161010590,
-        "accountType": "STAFF",
-        "cardBusinessType": "BATCH_CHAT_TIP_FOR_SENDER",
-        "context": "{\"staffText\":\"测试批量可以聊卡片\"}",
-        "partitionId": 128978215,
-        "sessionId": "3d6df817b901909d297d5418834986e5"
+        "accountId": 1173753092,
+        "accountType": "USER",
+        "cardBusinessType": "COMMON_B_HALF_TIPS",
+        "context": "测试单向卡片文案",
+        "partitionId": 1173753092,
+        "sessionId": "5a6a8cdb1df5193430c8f7e6e4041302"
     }
 parameters: []
 headers:

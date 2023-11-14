@@ -1,0 +1,31 @@
+_id: req_9613cd7be9c4460e887015f5a4542713
+type: Request
+parentId: fld_3605182e87d24543843601cd2df1aa36
+modified: 1698653208087
+created: 1698649968254
+url: http://p-im-im.zpidc.com/staff/getStaffUnidirectionalFoldMode
+name: 查询是否折叠
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":130021689,
+    	"staffId":1166587208
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698649968254
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

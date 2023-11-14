@@ -1,0 +1,31 @@
+_id: req_9b7edce62b9a49c9a30073a095e9b5a7
+type: Request
+parentId: wrk_ac6f9f875a6d4ed2be911f40b7c57134
+modified: 1699344789989
+created: 1699344758791
+url: http://b-candidatesearch-search.zpidc.com/candidate/listCandidate
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":147284546,
+    "userId" :1165887014,
+    "staffId":1180676013,
+    	"page":{"pageNo":1,"pageSize":50}
+    }
+parameters: []
+headers:
+  - name: content-type
+    value: application/json
+authentication: {}
+metaSortKey: -1699344758791
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

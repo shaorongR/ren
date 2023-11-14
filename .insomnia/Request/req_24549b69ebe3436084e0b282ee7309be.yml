@@ -1,7 +1,7 @@
 _id: req_24549b69ebe3436084e0b282ee7309be
 type: Request
 parentId: fld_4901505645be490d9693f39309163feb
-modified: 1693555886179
+modified: 1698991259785
 created: 1693555817064
 url: http://z-im-im.zpidc.com/backSource/getSessionMemberForBackSource
 name: getSessionMemberForBackSource
@@ -9,13 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"id":"102ea0eb4d7c2994109bf458637b2958",
-    	"accountType":"STAFF",
-    	"accountId":1178251787,
-    	"withUnread":false
-    }
+  text: '{"accountId":1118572425,"accountType":"STAFF","id":"5585f7dafc1dfd2e547bc3b3bffd3a1d","withUnread":true}'
 parameters: []
 headers:
   - name: Content-Type

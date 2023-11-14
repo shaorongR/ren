@@ -1,16 +1,16 @@
 _id: req_5ad94170ddd64aa7a3d38aa03c6e9716
 type: Request
 parentId: fld_1ff43c956f884c90bba5b35401baab16
-modified: 1698322841281
+modified: 1699279630755
 created: 1698313646030
 url: http://p-im-im.zpidc.com/sessionV3/getOrCreateTalentInvitationSession
-name: getOrCreateTalentInvitationSession
+name: 创建人才邀约会话
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: >-
-    {"staffId":1166587208,"userId":1154102234,"jobNumber":"CCL1300216890J40443070308","resumeNumber":"JH541022348R90500000000","rootOrgId":130021689,"resumeLanguage":1,"resumeVersion":1,"sideSourceType":"TALENT_INVITATION","sourceId":"test","sideBusinessType":"Z",
+    {"staffId":1166587208,"userId":1182903597,"jobNumber":"CCL1300216890J40443070308","resumeNumber":"JH829035971R90500000000","rootOrgId":130021689,"resumeLanguage":1,"resumeVersion":1,"sideSourceType":"TALENT_INVITATION","sourceId":"test","sideBusinessType":"Z",
     	"sideBusinessSubtype":"TALENT_INVITATION"}
 parameters: []
 headers:

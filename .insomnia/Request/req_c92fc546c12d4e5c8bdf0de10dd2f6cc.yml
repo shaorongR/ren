@@ -1,7 +1,7 @@
 _id: req_c92fc546c12d4e5c8bdf0de10dd2f6cc
 type: Request
 parentId: fld_d454266d8d9f49a993e5d231f5e57159
-modified: 1697707867110
+modified: 1699270881742
 created: 1684206621869
 url: http://p-im-im.zpidc.com/operationAdmin/saveOrUpdateSceneOperation
 name: 抢人才
@@ -9,12 +9,25 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    "scene": "TALENT_SEARCH",
-    "operationType": "BLUE_COLLAR_GUIDE_STAFF_TO_CALL_CARD",
-    "state": "INVALID",
-    "env": "pre"
+
+    "scene": "USER_UNIDIRECTION_RECOMMEND",
+
+    "operationType": "USER_SETTING_CARD",
+
+    "context": "{\"messageType\":252,\"tags\":[],\"detectMessage\":false,\"senderType\":\"STAFF\",\"visible\":false,\"targetVisible\":true,\"option\":{\"initiative\":false,\"countInRead\":false,\"outerPush\":false,\"innerPush\":false}}",
+
+    "condition": "#root.operationMeta != null",
+
+    "priority": 1,
+
+    "state": "VALID",
+
+    "description": "给C发单向会话设置卡片",
+
+    "env": "prod"
+
     }
 parameters: []
 headers:

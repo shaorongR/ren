@@ -1,0 +1,31 @@
+_id: req_23e72b3cde71479b94bf535ffe8f749c
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1699017241195
+created: 1698913445873
+url: http://p-im-im.zpidc.com/test/deleteSessionById
+name: 删除会话
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sessionId":90955770615,
+    	"accountType":"STAFF",
+    	"targetType":"STAFF",
+    	"rootOrgId":133395514
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661244900760.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

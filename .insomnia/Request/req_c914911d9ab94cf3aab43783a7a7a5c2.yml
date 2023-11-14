@@ -1,0 +1,31 @@
+_id: req_c914911d9ab94cf3aab43783a7a7a5c2
+type: Request
+parentId: fld_092559d5304f46299dc2e91cc8d733e6
+modified: 1698927121368
+created: 1698653387354
+url: http://b-staffunidirection-staffunidirection.zpidc.com/recommendResume/getRecommendedMode
+name: 查询推送模式
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":84027024,
+    	"staffId":1111385153
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698651655066.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

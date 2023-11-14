@@ -1,0 +1,27 @@
+_id: req_ef6b31c0e59c4845bfda5a9c47f0e31b
+type: Request
+parentId: fld_1ff43c956f884c90bba5b35401baab16
+modified: 1698928913550
+created: 1698926640266
+url: http://p-im-im.zpidc.com/sessionV3/listSimpleUserSession
+name: 获取C会话列表
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"accountId":696883123,
+    	"accountType":"USER"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661244900579.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

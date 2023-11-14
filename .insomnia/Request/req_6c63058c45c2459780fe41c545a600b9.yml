@@ -1,0 +1,34 @@
+_id: req_6c63058c45c2459780fe41c545a600b9
+type: Request
+parentId: fld_3605182e87d24543843601cd2df1aa36
+modified: 1698741125657
+created: 1698653184080
+url: http://p-im-im.zpidc.com/staff/setStaffUnidirectionalFoldMode
+name: 设置是否折叠
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":130021689,
+    	"staffId":1166587208,
+    	"staffUnidirectionalFold":true,
+    	"sideBusinessType":"Z",
+    	"sideBusinessSubtype":"test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698469562914
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

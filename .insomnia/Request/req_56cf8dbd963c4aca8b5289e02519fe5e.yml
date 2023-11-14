@@ -1,7 +1,7 @@
 _id: req_56cf8dbd963c4aca8b5289e02519fe5e
 type: Request
 parentId: fld_1ff43c956f884c90bba5b35401baab16
-modified: 1697800064695
+modified: 1699523597668
 created: 1697799586492
 url: http://p-im-im.zpidc.com/cardV2/acceptForContact
 name: acceptForContact
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"acceptContactType":"SEND_MOBILE","acceptForAskAttachment":false,"accountId":1181672708,"accountType":"USER","applyResumeType":"ONLINE_ONLY","attachmentGray":true,"partitionId":1181672708,"resumeLanguage":"CH","resumeNumber":"JH816727084R90500000000","resumeVersion":1,"scene":"USER_HALF_SESSION_RECEIVE","sessionId":"b96c579def6cb7170734722b8f9411a6"}'
+  text: '{"acceptContactType":"SEND_RESUME","accountId":1181145458,"accountType":"USER","partitionId":1181145458,"resumeLanguage":"CH","resumeNumber":"JH811454586R90500000000","resumeVersion":1,"sessionId":"bdb28570a9519373b12cff0cba83ee7a","scene":"SEND_ATTACH_RESUME_FROM_AGREE_BUTTON"}'
 parameters: []
 headers:
   - name: Content-Type

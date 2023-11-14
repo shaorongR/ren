@@ -1,0 +1,34 @@
+_id: req_b08e18d7bfc144eaad1fcd01b44a988d
+type: Request
+parentId: fld_092559d5304f46299dc2e91cc8d733e6
+modified: 1698653436958
+created: 1698653341879
+url: http://b-staffunidirection-staffunidirection.zpidc.com/recommendResume/setRecommendedMode
+name: 设置推送模式
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":130021689,
+    	"staffId":1166587208,
+    	"stopRecommended":false,
+    	"sideBusinessType":"Z",
+    	"sideBusinessSubtype":"test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698653341879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

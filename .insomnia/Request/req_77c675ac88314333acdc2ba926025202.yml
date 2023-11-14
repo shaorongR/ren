@@ -1,0 +1,33 @@
+_id: req_77c675ac88314333acdc2ba926025202
+type: Request
+parentId: fld_4e0f796a7b374b9fbf6b590e7f7a249f
+modified: 1699345152601
+created: 1699344644483
+url: http://b-candidatesearch-search.zpidc.com/candidateInner/listCandidate
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rootOrgId":147284546,
+    "userId":1165887014,
+    "staffId":1180676013,
+    	"page":{"pageNo":1,"pageSize":50}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699344644483
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
